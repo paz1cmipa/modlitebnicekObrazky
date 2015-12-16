@@ -8,10 +8,7 @@ package InterfacesMysqlobjectOther;
 import Entity.SrdcovyBonus;
 import java.util.List;
 
-/**
- *
- * @author Šimon
- */
+
 public interface SrdcovyBonusDao {
     
     public SrdcovyBonus nahodneVyber();
@@ -21,7 +18,5 @@ public interface SrdcovyBonusDao {
     public void pridaj(SrdcovyBonus sb);
     
     public void odstranit(SrdcovyBonus sb);
-    
-    
     
 }
