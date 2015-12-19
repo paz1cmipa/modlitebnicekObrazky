@@ -683,6 +683,8 @@ public class MainForm extends javax.swing.JFrame {
 
 			textBox.setText(cit);
 			if(ma.contains(citat.getAutor())){
+                            
+                      zivotopisButton.setVisible(true);
                       zivotopisButton.setEnabled(true);
                   }else{
                           pridajAbutton.setVisible(true);
