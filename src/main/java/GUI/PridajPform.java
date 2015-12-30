@@ -31,6 +31,34 @@ public class PridajPform extends javax.swing.JFrame {
          this.setSize(645, 444);
             
     }
+    
+    public String formatuj(String neupraveny, int pocet) {
+
+		int pocetMedz = 0;
+		StringBuilder upraveny = new StringBuilder();
+		char pismenko;
+
+		for (int i = 0; i < neupraveny.length(); i++) {
+			
+			pismenko = neupraveny.charAt(i);
+
+			if (pismenko == ' ') {
+				pocetMedz++;
+			}
+
+			if (pocetMedz == pocet) {
+				
+				upraveny.append("\n");
+				pocetMedz = 0;
+			}else{
+				
+				upraveny.append(pismenko);
+			}
+
+		}
+
+		return upraveny.toString();
+	}
 
     
     @SuppressWarnings("unchecked")
@@ -110,7 +138,7 @@ public class PridajPform extends javax.swing.JFrame {
         }
         
         MysqlPribeh novy = new MysqlPribeh();
-        Pribeh pribeh = new Pribeh(nazovField.getText(), pribehArea.getText(), kategoria);
+        Pribeh pribeh = new Pribeh(nazovField.getText(), this.formatuj(pribehArea.getText(), 14), kategoria);
         novy.pridat(pribeh);
         
          ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\add_folder.jpg");

@@ -5,6 +5,7 @@
  */
 package GUI;
 
+import Entity.Umysel;
 import java.awt.Component;
 import java.awt.Frame;
 import java.awt.Image;
@@ -14,7 +15,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import Entity.Umysel;
+import Entity.UmyselFile;
+import InterfacesMysqlobjectOther.MysqlUmysel;
 
 /**
  *
@@ -110,16 +112,15 @@ public class pridajUmyselForm extends javax.swing.JDialog {
     private void pridajButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pridajButtonActionPerformed
    	
         
-        Umysel novy = new Umysel();
-		try {
+      MysqlUmysel zoznam = new MysqlUmysel();
+      Umysel novy = new Umysel(umText.getText());
+		
 			if (umText.getText().equals("")) {
 				return;
 			}
-			novy.pridaj(umText.getText());
+			zoznam.pridat(novy);
 			this.setVisible(false);
-		} catch (IOException ex) {
-			Logger.getLogger(pridajUmyselForm.class.getName()).log(Level.SEVERE, null, ex);
-		}
+		
 		this.setVisible(false);
     }//GEN-LAST:event_pridajButtonActionPerformed
 

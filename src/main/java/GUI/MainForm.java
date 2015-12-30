@@ -38,8 +38,9 @@ import InterfacesMysqlobjectOther.MysqlModlitba;
 import Entity.Oblubene;
 import Entity.SrdcovyBonus;
 import InterfacesMysqlobjectOther.Sviatok;
-import Entity.Umysel;
+import Entity.UmyselFile;
 import InterfacesMysqlobjectOther.MysqlBonus;
+import InterfacesMysqlobjectOther.MysqlUmysel;
 
 
 public class MainForm extends javax.swing.JFrame {
@@ -48,7 +49,7 @@ public class MainForm extends javax.swing.JFrame {
    private Modlitba mod = null;
    private Oblubene ob = new Oblubene();
    private int informacia = 0; // Co chcem pridat medzi favorite? (1->M,2->C)
-   Umysel umysel = new Umysel();
+   private MysqlUmysel zoznamUm = new MysqlUmysel();
    private int pocitadlo = 0;
    private int pocitadlo2 = 0;
    private int fvtVisible = 1;
@@ -756,10 +757,9 @@ public class MainForm extends javax.swing.JFrame {
         nazovField.setVisible(false);
         menoLable.setVisible(true);
         modlimSaZaLable.setVisible(true);
-        umysel = new Umysel();
-        umysel.zoSuboru(new File("C://Users//Šimon//Desktop//projekt//umysel.txt"));
-        menoLable.setText(umysel.dajUmysel());
-
+       
+       
+        menoLable.setText(zoznamUm.dajNahodny().toString());
     }//GEN-LAST:event_zaKohoButtonActionPerformed
 
     private void pridajButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pridajButtonActionPerformed
