@@ -25,7 +25,7 @@ public class PridajCform extends javax.swing.JFrame {
         this.setSize(580,320);
             
         this.setTitle("Pridať citát");
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
         this.setIconImage(im);
          choice.addItem("Z Biblie");
          choice.addItem("Citáty svätcov");
@@ -111,11 +111,11 @@ public class PridajCform extends javax.swing.JFrame {
 		boolean kategoria = false;
 		MysqlCitat zoz = new MysqlCitat();
 		MysqlAutor ma = new MysqlAutor();
-		ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\add_folder.jpg");
+		ImageIcon icon = new ImageIcon("add_folder.jpg");
 
 		if (autorField.getText().equals("") || citatField.getText().equals("")) {
 
-			ImageIcon icon1 = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\oops.jpg");
+			ImageIcon icon1 = new ImageIcon("oops.jpg");
 			JOptionPane.showMessageDialog(null, "Vyplnte prosím požadované informácie.", "Modlibníček info",
 					JOptionPane.INFORMATION_MESSAGE, icon1);
 			return;

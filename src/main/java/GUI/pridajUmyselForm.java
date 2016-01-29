@@ -41,7 +41,7 @@ public class pridajUmyselForm extends javax.swing.JDialog {
         initComponents();
         this.setTitle("Pridaj úmysel");
         this.setSize(400, 334);
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/a2.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("a2.jpg");
         this.setIconImage(im);
         setLocationRelativeTo(this);
     }

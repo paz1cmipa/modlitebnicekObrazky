@@ -43,9 +43,9 @@ public class NastavenieForm extends javax.swing.JDialog {
         
         sipkaL.setVisible(false);
 
-        obrazky.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\mat.jpg");
-        obrazky.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\3m.jpg");
-        obrazky.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\default.jpg");
+        obrazky.add("mat.jpg");
+        obrazky.add("3m.jpg");
+        obrazky.add("default.jpg");
 
         
         
@@ -264,27 +264,27 @@ public class NastavenieForm extends javax.swing.JDialog {
 
     private void sipkaPMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaPMouseEntered
 
-                sipkaP.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zPs.jpg")); // NOI18N
+                sipkaP.setIcon(new javax.swing.ImageIcon("zPs.jpg")); // NOI18N
 
         
     }//GEN-LAST:event_sipkaPMouseEntered
 
     private void sipkaPMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaPMouseExited
       
-                sipkaP.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zP.jpg")); // NOI18N
+                sipkaP.setIcon(new javax.swing.ImageIcon("zP.jpg")); // NOI18N
 
     }//GEN-LAST:event_sipkaPMouseExited
 
     private void sipkaLMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaLMouseEntered
 
         
-                sipkaL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zLs.jpg")); // NOI18N
+                sipkaL.setIcon(new javax.swing.ImageIcon("zLs.jpg")); // NOI18N
 
     }//GEN-LAST:event_sipkaLMouseEntered
 
     private void sipkaLMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaLMouseExited
 
-                sipkaL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zL.jpg")); // NOI18N
+                sipkaL.setIcon(new javax.swing.ImageIcon("zL.jpg")); // NOI18N
 
 
     }//GEN-LAST:event_sipkaLMouseExited
@@ -292,9 +292,9 @@ public class NastavenieForm extends javax.swing.JDialog {
     private void setMotivButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setMotivButtonActionPerformed
 
        List<String> obrazkyV = new ArrayList<String>();
-       obrazkyV.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\4.jpg");
-       obrazkyV.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\3.jpg"); 
-       obrazkyV.add("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Cross-Easter.jpg");
+       obrazkyV.add("4.jpg");
+       obrazkyV.add("3.jpg"); 
+       obrazkyV.add("Cross-Easter.jpg");
 
       
        

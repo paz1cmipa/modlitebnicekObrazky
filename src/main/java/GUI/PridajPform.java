@@ -19,7 +19,7 @@ public class PridajPform extends javax.swing.JFrame {
         initComponents();
         
         this.setTitle("Pridajte príbeh");
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
         this.setIconImage(im);
        
         choice.addItem("Bruno Ferrero - malé príbehy");
@@ -141,7 +141,7 @@ public class PridajPform extends javax.swing.JFrame {
         Pribeh pribeh = new Pribeh(nazovField.getText(), this.formatuj(pribehArea.getText(), 14), kategoria);
         novy.pridat(pribeh);
         
-         ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\add_folder.jpg");
+         ImageIcon icon = new ImageIcon("add_folder.jpg");
 
           JOptionPane.showMessageDialog(
                         null,
@@ -161,10 +161,10 @@ public class PridajPform extends javax.swing.JFrame {
 
             pridajButton.setEnabled(true);
             pribehArea.setVisible(true);
-            control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch2.jpg"));
+            control.setIcon(new javax.swing.ImageIcon("ch2.jpg"));
 
         }else{
-            control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch1.jpg"));
+            control.setIcon(new javax.swing.ImageIcon("jpg"));
             pridajButton.setEnabled(false);
         }
 

@@ -39,7 +39,7 @@ public class upravitForm extends javax.swing.JFrame {
                 choice1.setVisible(false);
                 this.setLocationRelativeTo(null);
                 this.setTitle("Upraviť");
-                Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+                Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
                 this.setIconImage(im);
                 
                 if(selectedItem.equals("Modlitby")){
@@ -308,7 +308,7 @@ public class upravitForm extends javax.swing.JFrame {
 
         if(!(ListUprava.isSelectionEmpty())){
         
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin2.jpg"));
+        binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
 
         }
         
@@ -319,7 +319,7 @@ public class upravitForm extends javax.swing.JFrame {
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
-     binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg"));
+     binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
 
     }//GEN-LAST:event_binButtonMouseExited
 

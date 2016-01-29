@@ -49,8 +49,8 @@ public class Kniha extends javax.swing.JFrame {
         initComponents();
      
      mf = parent;
-		pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Bible1.jpg"));
-		Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+		pozadie.setIcon(new javax.swing.ImageIcon("Bible1.jpg"));
+		Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
 		this.setIconImage(im);
 
 		pribehB.setVisible(true);
@@ -399,20 +399,20 @@ public class Kniha extends javax.swing.JFrame {
     }//GEN-LAST:event_pribehButtonMouseExited
 
     private void domovButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseEntered
-      domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\2a.jpg"));
+      domovButton.setIcon(new javax.swing.ImageIcon("2a.jpg"));
     }//GEN-LAST:event_domovButtonMouseEntered
 
     private void domovButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseExited
-    domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\1a.jpg"));
+    domovButton.setIcon(new javax.swing.ImageIcon("1a.jpg"));
     }//GEN-LAST:event_domovButtonMouseExited
 
     private void nastaveniaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseEntered
         
-    //  nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\setting2.jpg"));
+    //  nastaveniaButton.setIcon(new javax.swing.ImageIcon("setting2.jpg"));
     }//GEN-LAST:event_nastaveniaButtonMouseEntered
 
     private void nastaveniaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseExited
-      nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\s1a.jpg"));
+      nastaveniaButton.setIcon(new javax.swing.ImageIcon("s1a.jpg"));
     }//GEN-LAST:event_nastaveniaButtonMouseExited
 
     private void nastaveniaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nastaveniaButtonActionPerformed
@@ -459,12 +459,12 @@ public class Kniha extends javax.swing.JFrame {
         if(pocitadlo % 2==0){
             zoznamList.setVisible(false);
             this.setSize(887, 600);
-            sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr.jpg"));
+            sipkaButton.setIcon(new javax.swing.ImageIcon("arr.jpg"));
 
         }else{
             this.setSize(1145, 600);
             zoznamList.setVisible(true);
-            sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr2.jpg"));
+            sipkaButton.setIcon(new javax.swing.ImageIcon("arr2.jpg"));
         }
     }//GEN-LAST:event_sipkaButtonActionPerformed
 
@@ -524,7 +524,7 @@ public class Kniha extends javax.swing.JFrame {
             ob.pridajPribeh(prib);
         }
 
-        ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\favorite-child.jpg");
+        ImageIcon icon = new ImageIcon("favorite-child.jpg");
         JOptionPane.showMessageDialog(
             null,
             "Položka bola úspešne uložená medzi obľúbené :)",
@@ -597,14 +597,14 @@ public class Kniha extends javax.swing.JFrame {
 
     private void binButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseEntered
         if(!(fvtList.isSelectionEmpty())){
-              binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin2.jpg"));
+              binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
         }
     }//GEN-LAST:event_binButtonMouseEntered
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
         
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg"));
+        binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
     }//GEN-LAST:event_binButtonMouseExited
 
     public static void main(String args[]) {

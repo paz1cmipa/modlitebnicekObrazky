@@ -18,7 +18,7 @@ public class PridajteForm extends javax.swing.JFrame {
         
          getContentPane().setBackground(new Color(54, 58, 55));
          this.setTitle("Pridať...");
-         Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/set3.jpg");
+         Image im = Toolkit.getDefaultToolkit().getImage("set3.jpg");
          this.setIconImage(im);   
          this.setSize(682, 440);
          this.setLocale(null);
@@ -154,32 +154,32 @@ public class PridajteForm extends javax.swing.JFrame {
     }//GEN-LAST:event_zatvorButtonActionPerformed
 
     private void modlitbaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_modlitbaButtonMouseEntered
-      modlitbaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c2.jpg"));
+      modlitbaButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
       modlitbaLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_modlitbaButtonMouseEntered
 
     private void modlitbaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_modlitbaButtonMouseExited
-    modlitbaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\m4w.jpg")); 
+    modlitbaButton.setIcon(new javax.swing.ImageIcon("m4w.jpg")); 
     modlitbaLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_modlitbaButtonMouseExited
 
     private void citatButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_citatButtonMouseEntered
-        citatButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c2.jpg"));
+        citatButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
         citatLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_citatButtonMouseEntered
 
     private void pribehButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseEntered
-       pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c2.jpg"));
+       pribehButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
        pribehLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_pribehButtonMouseEntered
 
     private void citatButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_citatButtonMouseExited
-        citatButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"));
+        citatButton.setIcon(new javax.swing.ImageIcon("c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"));
         citatLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_citatButtonMouseExited
 
     private void pribehButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseExited
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"));
+        pribehButton.setIcon(new javax.swing.ImageIcon("children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"));
         pribehLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_pribehButtonMouseExited
 

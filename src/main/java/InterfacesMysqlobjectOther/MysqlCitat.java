@@ -14,7 +14,7 @@ public class MysqlCitat implements CitatDao {
 	public MysqlCitat() {
 		MysqlDataSource dataSource = new MysqlDataSource();
 		try {
-			dataSource.setUrl("jdbc:mysql://localhost/Modlibnicek");
+			dataSource.setUrl("jdbc:mysql://localhost/modlibnicek");
 
 			dataSource.setUser("paz1cuser");
 			dataSource.setPassword("simon.123");

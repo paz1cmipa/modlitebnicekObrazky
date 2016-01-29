@@ -38,7 +38,6 @@ import InterfacesMysqlobjectOther.MysqlModlitba;
 import Entity.Oblubene;
 import Entity.SrdcovyBonus;
 import InterfacesMysqlobjectOther.Sviatok;
-import Entity.UmyselFile;
 import InterfacesMysqlobjectOther.MysqlBonus;
 import InterfacesMysqlobjectOther.MysqlUmysel;
 
@@ -53,7 +52,7 @@ public class MainForm extends javax.swing.JFrame {
    private int pocitadlo = 0;
    private int pocitadlo2 = 0;
    private int fvtVisible = 1;
-   private ImageIcon aktualny = new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Cross-Easter.jpg");       
+   private ImageIcon aktualny = new javax.swing.ImageIcon("Cross-Easter.jpg");       
    private int sviatok = 0;
    private Kniha k = new Kniha(this);
    int den = 0;
@@ -88,7 +87,7 @@ public class MainForm extends javax.swing.JFrame {
 		getContentPane().setBackground(new Color(54, 58, 55));
 		this.setSize(887, 600);
 		this.setTitle("Modlibníček");
-		Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+		Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
 		this.setIconImage(im);
 		setLocation(new java.awt.Point(500, 200));
 
@@ -586,7 +585,7 @@ public class MainForm extends javax.swing.JFrame {
 		String zadane = new String();
 		if (nazovField.getSelectedItem() == null) {
 
-			ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\oops.jpg");
+			ImageIcon icon = new ImageIcon("oops.jpg");
 			JOptionPane.showMessageDialog(null, "Zadajte názov modlitby!", "Modlibníček info",
 					JOptionPane.INFORMATION_MESSAGE, icon);
 			return;
@@ -610,7 +609,7 @@ public class MainForm extends javax.swing.JFrame {
 
 		} else {
 
-			ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\oops.jpg");
+			ImageIcon icon = new ImageIcon("oops.jpg");
 			JOptionPane
 					.showMessageDialog(null,
 							"Modlitba sa nenachádza v zozname." + "\n" + "Pridajte novú Modlitbu s takýmto názvom "
@@ -835,38 +834,38 @@ public class MainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_pribehButtonMouseClicked
 
     private void pribehButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseEntered
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\k3.jpg"));
+        pribehButton.setIcon(new javax.swing.ImageIcon("k3.jpg"));
         pribehButton.setToolTipText("Knižný mód");
     }//GEN-LAST:event_pribehButtonMouseEntered
 
     private void pribehButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseExited
-         pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\k2.jpg"));
+         pribehButton.setIcon(new javax.swing.ImageIcon("k2.jpg"));
     }//GEN-LAST:event_pribehButtonMouseExited
 
     private void najstButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_najstButtonMouseEntered
-      najstButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\najstMk.jpg"));
+      najstButton.setIcon(new javax.swing.ImageIcon("najstMk.jpg"));
     }//GEN-LAST:event_najstButtonMouseEntered
 
     private void najstButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_najstButtonMouseExited
-      najstButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\najstM.jpg")); 
+      najstButton.setIcon(new javax.swing.ImageIcon("najstM.jpg")); 
     }//GEN-LAST:event_najstButtonMouseExited
 
     private void domovButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseEntered
         domovButton.setToolTipText("Domov");
-        domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\2a.jpg"));
+        domovButton.setIcon(new javax.swing.ImageIcon("2a.jpg"));
     }//GEN-LAST:event_domovButtonMouseEntered
 
     private void domovButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseExited
-    domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\1a.jpg"));
+    domovButton.setIcon(new javax.swing.ImageIcon("1a.jpg"));
     }//GEN-LAST:event_domovButtonMouseExited
 
     private void nastaveniaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseEntered
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\setting2.jpg"));
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon("setting2.jpg"));
         nastaveniaButton.setToolTipText("Nastavvenia");
     }//GEN-LAST:event_nastaveniaButtonMouseEntered
 
     private void nastaveniaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseExited
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\s1a.jpg"));
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon("s1a.jpg"));
     }//GEN-LAST:event_nastaveniaButtonMouseExited
 
     private void nastaveniaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nastaveniaButtonActionPerformed
@@ -890,12 +889,12 @@ public class MainForm extends javax.swing.JFrame {
 
     private void PRIDAJbuttonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PRIDAJbuttonMouseEntered
       
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\n2.jpg"));
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("n2.jpg"));
         PRIDAJbutton.setToolTipText("Pridať..");
     }//GEN-LAST:event_PRIDAJbuttonMouseEntered
 
     private void PRIDAJbuttonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PRIDAJbuttonMouseExited
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\n.jpg"));
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("n.jpg"));
 
     }//GEN-LAST:event_PRIDAJbuttonMouseExited
 
@@ -912,12 +911,12 @@ public class MainForm extends javax.swing.JFrame {
         if(pocitadlo % 2==0){
          zoznamList.setVisible(false);  
          this.setSize(887, 600);
-         sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr.jpg"));
+         sipkaButton.setIcon(new javax.swing.ImageIcon("arr.jpg"));
 
         }else{
            this.setSize(1145, 600); 
            zoznamList.setVisible(true);
-           sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr2.jpg"));
+           sipkaButton.setIcon(new javax.swing.ImageIcon("arr2.jpg"));
         }
     }//GEN-LAST:event_sipkaButtonActionPerformed
 
@@ -939,7 +938,7 @@ public class MainForm extends javax.swing.JFrame {
          laskaButton.setToolTipText("Srdiečkový bonus");
          zivotopisButton.setVisible(false);
          laskaButton.setVisible(false);
-         pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\love3.jpg"));
+         pozadie.setIcon(new javax.swing.ImageIcon("love3.jpg"));
          getContentPane().add(pozadie, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, -30, 1000, 590));
          fvtButton.setVisible(false);
          
@@ -981,7 +980,7 @@ public class MainForm extends javax.swing.JFrame {
             try {
                
                 String test = fi.getAbsolutePath();
-                ImageIO.write((BufferedImage)fg,"png",new File("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Cross-Easter.jpg"));
+                ImageIO.write((BufferedImage)fg,"png",new File("Cross-Easter.jpg"));
                 ImageIO.write(fg, "png", fs.getSelectedFile());
             
             } catch (IOException ex) {
@@ -1029,7 +1028,7 @@ public class MainForm extends javax.swing.JFrame {
 
     private void fvtButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fvtButtonActionPerformed
         
-        ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\favorite-child.jpg");
+        ImageIcon icon = new ImageIcon("favorite-child.jpg");
                 JOptionPane.showMessageDialog(
                         null,
                         "Položka bola úspešne uložená medzi obľúbené :)",
@@ -1171,13 +1170,13 @@ public class MainForm extends javax.swing.JFrame {
     private void binButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseEntered
                 
         if(!(fvtList.isSelectionEmpty())){
-              binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin2.jpg"));
+              binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
         }
     }//GEN-LAST:event_binButtonMouseEntered
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
-         binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg"));
+         binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
          
     }//GEN-LAST:event_binButtonMouseExited
 

@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class Sviatok {
 
-	private File subor = new File("C:\\Users\\Šimon\\Desktop\\projekt\\sviatok.txt");
+	private File subor = new File("C:\\Users\\MojaAplikacia\\sviatok.txt");
 
 	public int scitaj(int mesiac) {
 		int[] pole = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };

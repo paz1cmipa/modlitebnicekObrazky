@@ -27,7 +27,7 @@ public class PridajMform extends javax.swing.JFrame {
     public PridajMform() {
         initComponents();
         this.setSize(480,387);
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
         this.setIconImage(im);
         PridajButton.setEnabled(false);
         TextArea.setVisible(false);
@@ -121,7 +121,7 @@ public class PridajMform extends javax.swing.JFrame {
 		MysqlModlitba zoznam = new MysqlModlitba();
 		zoznam.dajVsetky();
 
-		ImageIcon icon = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\add_folder.jpg");
+		ImageIcon icon = new ImageIcon("add_folder.jpg");
 
 		JOptionPane.showMessageDialog(null, "Modlitba bola úspešne pridaná.", "Modlibníček info",
 				JOptionPane.INFORMATION_MESSAGE, icon);
@@ -139,10 +139,10 @@ public class PridajMform extends javax.swing.JFrame {
          
           PridajButton.setEnabled(true);
           TextArea.setVisible(true);
-          control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch2.jpg"));
+          control.setIcon(new javax.swing.ImageIcon("ch2.jpg"));
          
       }else{
-          control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch1.jpg"));
+          control.setIcon(new javax.swing.ImageIcon("ch1.jpg"));
           PridajButton.setEnabled(false);
       }
   

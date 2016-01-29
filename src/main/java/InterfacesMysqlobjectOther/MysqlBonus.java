@@ -23,7 +23,7 @@ public class MysqlBonus implements SrdcovyBonusDao{
 	public MysqlBonus() {
 		MysqlDataSource dataSource = new MysqlDataSource();
 		try {
-			dataSource.setUrl("jdbc:mysql://localhost/Modlibnicek");
+			dataSource.setUrl("jdbc:mysql://localhost/modlibnicek");
 
 			dataSource.setUser("paz1cuser");
 			dataSource.setPassword("simon.123");

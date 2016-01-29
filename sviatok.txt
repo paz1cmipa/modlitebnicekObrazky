@@ -1,0 +1,377 @@
+1
+1.	Sv. Zdislava
+2.	Sv. Bazil Ve¾kı, biskup a uèite¾ Cirkvi
+3.	Sv. Danie, diakon a muèeník
+4.	Bl. Angela z Foligna, reho¾níèka
+5.	Sv. Ján Nepomuk Neuman CSSR, biskup
+6.	Sv. Andrej Korsíni, biskup
+7.	Sv. Rajmund z Peòafortu, kòaz
+8.	Sv. Vavrinec Giustiniani, biskup
+9.	Sv. Adrián (Hadrián) z Canterbury
+10.	Sv. Gregor Nysenskı, biskup
+11.	Sv. Teodózius, pustovník
+12.	Sv. Anton Mária Pucci, kòaz
+13.	Sv. Hilár, biskup a uèite¾ Cirkvi
+14.	Sv. Félix z Noly, kòaz a vyznávaè
+15.	Sv. Arnold Jansen, reho¾ník
+16.	Sv. Marcel I., pápe
+17.	Sv. Anton, opát
+18.	Sv. Margita Uhorská, panna a reho¾níèka
+19.	Sv. Márius, muèeník
+20.	Sv. Fabián, pápe a muèeník
+21.	Sv. Agnesa, panna a muèenica
+22.	Sv. Vincent, diakon a muèeník
+23.	Sv. Ján Almuník, biskup
+24.	Sv. František Saleskı, biskup a uèite¾ Cirkvi
+25.	Obrátenie sv. Pavla, apoštola
+26.	Sv. Timotej a Títus, biskupi
+27.	Sv. Angela Mericiová, panna
+28.	Sv. Tomáš Akvinskı, kòaz a uèite¾ Cirkvi
+29.	Sv. Valér (Valerián, Valérius), biskup
+30.	Sv. Martina, panna a muèenica
+31.	Sv. Ján Bosco, kòaz
+2
+1.	Sv. Tatiana, muèenica
+2.	Sv. Erik, krá¾, muèeník
+3.	Sv. Blaej, biskup a muèeník
+4.	Sv. Veronika
+5.	Sv. Agáta, panna a muèenica
+6.	Sv. Dorota, panna a muèenica
+7.	Bl. Pius IX., pápe
+8.	Sv. Hieronym Emiliáni, kòaz
+9.	Sv. Apolónia, panna a muèenica
+10.	Sv. Školastika, panna
+11.	Sv. Gregor II., pápe
+12.	Sv. Benedikt z Anianu, opát
+13.	Bl. Jordán, reho¾ník a kòaz
+14.	Sv. Valentín, biskup a muèeník
+15.	Sv. Faustín a Jovita, muèeníci
+16.	Sv. Juliana, panna a muèenica
+17.	Sedem sv. Zakladate¾ov
+18.	Bl. Ján z Fesulis – Fra Angelico
+19.	Bl. Konrád z Piacenzy, pustovník
+20.	Bl. Hyacinta Martová
+21.	Sv. Peter Damiáni, biskup a uèite¾ Cirkvi
+22.	Sv. Margita Kortonská, mystièka
+23.	Sv. Polykarp, biskup a muèeník
+24.	Sv. Modest, biskup
+25.	Sv. Valburga, opátka
+26.	Sv. Viktor, pustovník
+27.	Sv. Alexander, biskup
+28.	Sv. Roman, opát
+3
+1.	Sv. Félix II., pápe
+2.	Sv. Aneka Èeská
+3.	Sv. Kunigunda
+4.	Sv. Kazimír
+5.	Sv. Ján Jozef z Kría
+6.	Bl. Rozália (Ruena) Viterbská, panna
+7.	Sv. Perpetua a Felicita, muèenice
+8.	Sv. Ján z Boha, reho¾ník
+9.	Sv. Františka Rímska, reho¾níèka
+10.	Sv. Makárius, biskup
+11.	Sv. Eulógius, muèeník
+12.	Sv. Inocent I., pápe
+13.	Sv. Leander, biskup
+14.	Sv. Matilda, krá¾ovná
+15.	Sv. Klement Ján Mária Hofbauer, reho¾ník
+16.	Sv. Ján Sarkander, kòaz a muèeník
+17.	Sv. Patrik, biskup
+18.	Sv. Cyril Jeruzalemskı
+19.	Sv. Jozef, eních Panny Márie
+20.	Sv. Gertrúda, reho¾níèka
+21.	Sv. Serafion, biskup
+22.	Bl. Klement August von Galen, biskup
+23.	Sv. Turibius de Mongrovejo, biskup
+24.	Sv. Katarína Švédska, reho¾níèka
+25.	Zvestovanie Pána
+26.	Sv. Emanuel, muèeník
+27.	Sv. Nikodém
+28.	Sv. Soòa sv. ofia Rímska, muèenica
+29.	Bl. Bertold, pustovník
+30.	Bl. ¼udovít z Casorie
+31.	Sv. Balbína Rímska, panna a muèenica
+4
+1.	Sv. Hugo, biskup
+2.	Sv. František z Paoly, pustovník
+3.	Sv. Richard, biskup
+4.	Sv. Izidor, biskup a uèite¾ Cirkvi
+5.	Sv. Vincent Ferrerskı, reho¾ník a kòaz
+6.	Sv. Irena, panna a muèenica
+7.	Sv. Ján Krstite¾ de la Salle, reho¾ník a kòaz
+8.	Sv. Beáta, reho¾níèka
+9.	Sv. Libor, biskup a muèeník
+10.	Sv. Igor, ve¾kokniea a mních
+11.	Sv. Gemma, panna a mystièka
+12.	Sv. Július I., pápe a muèeník
+13.	Sv. Martin I., pápe a muèeník
+14.	Sv. Lıdia, panna a mystièka
+15.	Sv. Anastázia, panna a muèenica
+16.	Sv. Bernadeta, panna a reho¾níèka
+17.	Bl. Rudolf, muèeník
+18.	Sv. Valér, biskup
+19.	Sv. Lev IX., pápe
+20.	Sv. Marcel, pápe
+21.	Sv. Anzelm, biskup a uèite¾ Cirkvi
+22.	Sv. Konrád, reho¾ník
+23.	Sv. Vojtech, biskup a muèeník
+24.	Sv. Juraj, muèeník
+25.	Sv. Marek, evanjelista
+26.	Sv. Anaklét (Klétus), pápe a muèeník
+27.	Sv. Jaroslav, muèeník
+28.	Sv. Zita, panna
+29.	Sv. Katarína Sienská, panna a uèite¾ka
+30.	Sv. Pius V., pápe
+5
+1.	Sv. igmund Burgundskı, krá¾
+2.	Sv. Atanáz, biskup a uèite¾ Cirkvi
+3.	Sv. Filip a Jakub, apoštoli
+4.	Sv. Florián, muèeník
+5.	Sv. Gothard, biskup
+6.	Sv. Dominik Savio
+7.	Sv. Boris Bulharskı, kniea a mních
+8.	Bl. (Františka) Ulrika Nischová, reho¾níèka
+9.	Sv. Izaiáš, prorok
+10.	Sv. Ján z Avily, kòaz
+11.	Sv. Lucina Anicia, muèenica
+12.	Sv. Nereus, Achileus a Pankrác, muèeníci
+13.	Panna Mária Fatimská
+14.	Sv. Matej, apoštol
+15.	Sv. Izidor z Madridu, reho¾ník
+16.	Sv. Ján Nepomuckı, kòaz a muèeník
+17.	Sv. Paschal Baylonskı, reho¾ník
+18.	Sv. Ján I., pápe a muèeník
+19.	Sv. Celestín V., pápe
+20.	Sv. Bernardín Sienskı, kòaz
+21.	Sv. Krištof Magallanes, kòaz, a spoloèníci, muèeníci
+22.	Sv. Rita z Kassie, reho¾níèka
+23.	Sv. Ján Krstite¾ de Rossi
+24.	Bl. Jana
+25.	Sv. Gregor VII., pápe
+26.	Sv. Filip Neri, kòaz
+27.	Sv. Augustín z Canterbury, biskup
+28.	Bl. Viliam z Akvitánie
+29.	Sv. Uršula Ledóchowska
+30.	Sv. Jana Orleánska, panna a muèenica
+31.	Sv. Petronela, panna a muèenica
+6
+1.	Sv. Justín, muèeník
+2.	Sv. Marcelín a Peter, muèeníci
+3.	Sv. Karol Lwanga a spoloèníci, muèeníci
+4.	Sv. Kvirín (Quirinius), biskup a muèeník
+5.	Sv. Bonifác, biskup a muèeník
+6.	Sv. Norbert, biskup
+7.	Sv. Róbert, opát
+8.	Sv. Medard, biskup
+9.	Sv. Efrém, diakon a uèite¾ Cirkvi
+10.	Bl. Bohumil, biskup
+11.	Sv. Barnabáš, apoštol
+12.	Bl. Gašpar Bertoni, reho¾ník
+13.	Sv. Anton Paduábsky, kòaz a uèite¾ Cirkvi
+14.	Sv. Elizej, prorok
+15.	Sv. Vít, muèeník
+16.	Sv. Neit, muèeník
+17.	Sv. Alena, muèenica
+18.	Sv. Benon, biskup
+19.	Sv. Romuald, reho¾ník
+20.	Sv. Valéria, muèenica
+21.	Sv. Alojz, reho¾ník
+22.	Sv. Pavlín z Noly, biskup
+23.	Sv. Ján Fišer, biskup, asv. Tomáš Mórus, muèeníci
+24.	Sv. Ján Krstite¾
+25.	Sv. Olívia, panna a muèenica
+26.	Sv. Ján a Pavol, muèeníci
+27.	Sv. Ladislav, krá¾
+28.	Sv. Irenej, biskup a muèeník
+29.	Sv. Peter a Pavol, apoštoli
+30.	Sv. Melánia, muèenica
+7
+1.	Sv. Diana, reho¾níèka
+2.	Sv. Berta, reho¾níèka
+3.	Sv. Tomáš, apoštol
+4.	Sv. Prokop, opát a vyznávaè
+5.	Sv. Cyril a Metod, slovanskí vierozvestovia
+6.	Sv. Mária Gorettiová, panna a muèenica
+7.	Sv. Anton Mária Zaccaria, kòaz a zakladate¾ rádu
+8.	Sv. Ivan, pustovník
+9.	Sv. Lujza
+10.	Sv. Amália (Amalberga) z Gentu, panna, reho¾níèka a mystièka
+11.	Sv. Benedikt, opát
+12.	Sv. Ján Gualbert, opát
+13.	Sv. Henrich II., cisár
+14.	Sv. Kamil de Lellis, kòaz a reho¾ník
+15.	Sv. Bonaventúra, biskup a uèite¾ Cirkvi
+16.	Sv. Eliáš, prorok
+17.	Sv. Andrej Svorad a Benedikt, pustovníci
+18.	Bl. Peter Pavol Gojdiè, biskup a muèeník
+19.	Sv. Zlatica (Aurea)
+20.	Sv. O¾ga, kòaná
+21.	Sv. Vavrinec z Brindisi, kòaz a uèite¾ Cirkvi
+22.	Sv. Mária Magdaléna
+23.	Sv. Brigita, krá¾ovná a reho¾níèka, spolupatrónka Európy
+24.	Sv. Vladimír, kniea
+25.	Sv. Jakub, apoštol
+26.	Sv. Anna a Joachim, rodièia Panny Márie
+27.	Sv. Gorazd
+28.	Sv. Krištof, muèeník
+29.	Sv. Marta
+30.	Bl. Zdenka Schelingová
+31.	Sv. Ignác, reho¾ník
+8
+1.	Sv. Alfonz Mária de Liguori, biskup a uèite¾ Cirkvi
+2.	Sv. Euzébius Vercellskı, biskup
+3.	Sv. Peter Julián Eymard, kòaz
+4.	Sv. Ján Mária Vianney, kòaz
+5.	Sv. Osvald, krá¾ a muèeník
+6.	Sv. Kajetán, kòaz
+7.	Sv. Sixtis II., pápe a muèeník
+8.	Sv. Dominik, kòaz
+9.	Sv. Terézia Benedikta z Kría,
+10.	Sv. Vavrinec, diakon a muèeník
+11.	Sv. Klára, panna
+12.	Sv. Jana Františka de Chantal, reho¾níèka
+13.	Sv. Poncián, pápe, a Hypolit, kòaz, muèeníci
+14.	Sv. Maximilián Mária Kolbe, kòaz a muèeník
+15.	Sv. Tarzícius, muèeník
+16.	Sv. Štefan Uhorskı, krá¾
+17.	Sv. Hyacint, kòaz
+18.	Sv. Helena
+19.	Sv. Ján Eudes, kòaz
+20.	Sv. Bernard, opát a uèite¾ Cirkvi
+21.	Sv. Pius X., pápe
+22.	Sv. Filip Benícius
+23.	Sv. Ruena Limská
+24.	Sv. Bartolomej, apoštol
+25.	Sv. ¼udovít
+26.	Sv. Jozef Kalazanskı, kòaz
+27.	Sv. Monika
+28.	Sv. Augustín, biskup a uèite¾ Cirkvi
+29.	Sv. Sabína, muèenica
+30.	Sv. Erik, krá¾
+31.	Sv. Rajmund Nonnatus, reho¾ník
+9
+1.	Sv. Egídius, pustovník
+2.	Bl. Ingrida, zakladate¾ka kláštora
+3.	Sv. Gregor I. Ve¾kı, pápe a uèite¾ Cirkvi
+4.	Rozália, panna a pustovníèka
+5.	Bl. Matka Terézia z Kalkaty, reho¾níèka
+6.	Bl. Magnus (Maginold, Mango), opát
+7.	Sv. košickí muèeníci - Sv. Melichar Grodziecki SJ, sv. Štefan Pongrác SJ a sv. Marek Kriin, kanonik
+8.	Narodenie Panny Márie
+9.	Sv. Peter Klaver, kòaz
+10.	(Sv.) Hildegarda z Bingenu, opátka a mystièka
+11.	Sv. Móric (Maurícius), muèeník, a spoloèníci
+12.	Meno Panny Márie
+13.	Sv. Ján Chryzostom, biskup a uèite¾ Cirkvi
+14.	Sv. ¼udmila, muèenica
+15.	Sedembolestná Panna Mária
+16.	Sv. Kornel, pápe a muèeník, a sv. Cyprián, biskup a muèeník
+17.	Sv. Róbert Bellarmín, biskup a uèite¾ Cirkvi
+18.	Sv. Eugen, biskup
+19.	Sv. Január, biskup a muèeník
+20.	Sv. Andrej, kòaz, a Pavoj, kórejskí muèeníci
+21.	Sv. Matúš, apoštol a evanjelista
+22.	Sv. Emerám, biskup a muèeník
+23.	Sv. Pio z Pietrelciny, reho¾ník
+24.	Sv. Bystrík, biskup a muèeník
+25.	Bl. Vladislav, kòaz a reho¾ník
+26.	Sv. Kouma a Damián, muèeníci
+27.	Sv. Vincent de Paul, kòaz
+28.	Sv. Václav, kniea a muèeník
+29.	Sv. Michal, Gabriel a Rafael, archanjeli
+30.	Sv. Hieronym, kòaz a uèite¾ Cirkvi
+10
+1.	Sv. Teréria z Lisieux (od Dieaa Jeiša)
+2.	Svätıch anjelov strácov
+3.	Sv. Leodegar (Ludgar)
+4.	Sv. František Assiskı
+5.	Sv. Mária Faustína, panna
+6.	Sv. Bruno, kòaz
+7.	Sv. Justína, muèenica
+8.	Sv. Ján Leonardi, kòaz
+9.	Sv. Dionız, biskup, a spoloèníci, muèeníci
+10.	Sv. František Borgiáš
+11.	Bl. Ján XXIII., pápe
+12.	Sv. Maximilián, biskup a muèeník
+13.	Sv. Eduard, vyznávaè
+14.	Sv. Kalixt I., pápe a muèeník
+15.	Sv. Terézia od Jeiša, panna a uèite¾ka Cirkvi
+16.	Sv. Margita Mária Alacoqueová, panna
+17.	Sv. Ignác Antiochijskı, biskup
+18.	Sv. Lukáš, evanjelista
+19.	Sv. Ján de Brébeuf a Izák Jogues kòazi, a spoloèníci, muèeníci
+20.	Sv. Vendelín
+21.	Sv. Uršu¾a
+22.	Sv. Kordula
+23.	Sv. Ján Kapistránsky, kòaz
+24.	Sv. Anton Claret, biskup
+25.	Sv. Chryzant a Dária
+26.	Sv. Demeter, muèeník
+27.	Sv. Evarist, pápe a muèeník
+28.	Sv. Šimon, apoštol
+29.	Sv. Júda, apoštol
+30.	Sv. Gerard, biskup a muèeník
+31.	Sv. Wolfgang, biskup
+11
+1.	Slávnos všetkıch svätıch
+2.	Spomienka na všetkıch, vernıch zosnulıch
+3.	Sv. Hubert, biskup
+4.	Sv. Karol Boromejskı, biskup
+5.	Sv. Imrich, kniea
+6.	Sv. Leonard z Limoges (Linhart z Noblatu), pustovník
+7.	Sv. Engelbert, arcibiskup a muèeník
+8.	Sv. Bohumír, biskup
+9.	Sv. Teodor, muèeník
+10.	Sv. Lev Ve¾kı, pápe a uèite¾ Cirkvi
+11.	Sv. Martin z Tours, biskup
+12.	Sv. Jozafát, biskup a muèeník
+13.	Sv. Stanislav Kostka, klerik
+14.	Sv. Mikuláš Taveliè a spoloèníci, muèeníci
+15.	Albert Ve¾kı, biskup a uèite¾ Cirkvi
+16.	Sv. Gertrúda, panna a reho¾níèka
+17.	Sv. Albeta Uhorská, reho¾níèka
+18.	Sv. Odo z Cluny, opát
+19.	Sv. Mechtilda (Matilda), reho¾níèka a mystièka
+20.	Sv. Félix, kòaz a zakladate¾ rádu
+21.	Gelázius I., pápe
+22.	Sv. Cecília, panna a muèenica
+23.	Sv. Klement, pápe a muèeník
+24.	Sv. Emília de Vialar, zakladate¾ka rehole
+25.	Sv. Katarína Alexandrijská, panna a muèenica
+26.	Sv. Konrád, biskup
+27.	Sv. Amantius, biskup
+28.	Sv. Katarína Labouré, reho¾níèka
+29.	Sv. Saturnin, biskup a muèeník
+30.	Sv. Ondrej, apoštol
+12
+1.	Sv. Edmund Kampián, muèeník
+2.	Sv. Bibiána, panna a muèenica
+3.	Sv. František Xaverskı, kòaz
+4.	Sv. Ján Damascénsky, kòaz a uèite¾ Cirkvi
+5.	Sv. Barbora
+6.	Sv. Mikuláš, biskup
+7.	Sv. Ambróz, biskup
+8.	Sv. Marína, muèenica
+9.	Sv. Ján Didak (Juan Diego)
+10.	Sv. Eulália, muèenica
+11.	Sv. Damaz I., pápe
+12.	Bl. Otília Baumgarten, panna a muèenica
+13.	Sv. Lucia, panna a muèenica
+14.	Sv. Ján z Kría, kòaz a uèite¾ Cirkvi
+15.	Sv. Dušan (Spiridion), biskup
+16.	Sv. Adelhaida, cisárovná
+17.	Sv. Ján z Mathy, reho¾ník
+18.	Sv. Gracián, biskup
+19.	Bl. Urban V., pápe
+20.	Sv. Zefirín, pápe
+21.	Sv. Peter Kanízius, uèite¾ Cirkvi
+22.	Sv. Servulus, paralyticus
+23.	Sv. Ján Kentskı
+24.	Sv. Gianna Berettová-Mollová
+25.	Sv. Albert (Adam Hilary) Chmielowski
+26.	Sv. Štefan, prvı muèeník Cirkvi
+27.	Sv. Ján, apoštol
+28.	Svätıch Neviniatok, muèeníkov
+29.	Sv. Tomáš Becket, biskup a muèeník
+30.	Sv. Dávid
+31.	Sv. Silvester I., pápe

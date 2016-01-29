@@ -15,7 +15,7 @@ public class MysqlPribeh implements PribehDao {
 	public MysqlPribeh() {
 		MysqlDataSource dataSource = new MysqlDataSource();
 		try {
-			dataSource.setUrl("jdbc:mysql://localhost/Modlibnicek");
+			dataSource.setUrl("jdbc:mysql://localhost/modlibnicek");
 
 			dataSource.setUser("paz1cuser");
 			dataSource.setPassword("simon.123");
@@ -43,15 +43,11 @@ public class MysqlPribeh implements PribehDao {
 	}
 
 	public List<Pribeh> dajZdennika() {
-		List<Pribeh> vsetky = this.dajVsetky();
-		List<Pribeh> vysledok = new ArrayList<>();
+		String sql = "SELECT * FROM pribehy where kategoria = 2";
 
-		for (Pribeh p : vsetky) {
-			if (p.getKategoria() == 2) {
-				vysledok.add(p);
-			}
-		}
-		return vysledok;
+		BeanPropertyRowMapper<Pribeh> mapper = BeanPropertyRowMapper.newInstance(Pribeh.class);
+		return jdbcTemplate.query(sql, mapper);
+	
 	}
 
 	public boolean contains(String nazov) {
@@ -94,35 +90,23 @@ public class MysqlPribeh implements PribehDao {
 	}
 
 	public Pribeh nahodnyFerrero() {
+    
+            
+                String sql = "SELECT * FROM pribehy where kategoria = 1 ORDER BY RAND() LIMIT 1";
 
-		Random rand = new Random();
-
-		List<Pribeh> vsetky = this.dajVsetky();
-		List<Pribeh> vysledok = new ArrayList<>();
-
-		for (Pribeh p : vsetky) {
-			if (p.getKategoria() == 1) {
-				vysledok.add(p);
-			}
-		}
-		return vysledok.get(rand.nextInt(vysledok.size()));
+		BeanPropertyRowMapper<Pribeh> mapper = BeanPropertyRowMapper.newInstance(Pribeh.class);
+		return jdbcTemplate.query(sql, mapper).get(0);
 	}
 
 	public Pribeh nahodnyZpisma() {
 
-		Random rand = new Random();
+		
+                String sql = "SELECT * FROM pribehy where kategoria = 3 ORDER BY RAND() LIMIT 1";
 
-		List<Pribeh> vsetky = this.dajVsetky();
-		List<Pribeh> vysledok = new ArrayList<>();
-
-		for (Pribeh p : vsetky) {
-			if (p.getKategoria() == 3) {
-				vysledok.add(p);
-			}
-		}
-		return vysledok.get(rand.nextInt(vysledok.size()));
-
+		BeanPropertyRowMapper<Pribeh> mapper = BeanPropertyRowMapper.newInstance(Pribeh.class);
+		return jdbcTemplate.query(sql, mapper).get(0);
 	}
+
 
 	public Pribeh dajNahodnyPribeh() {
 

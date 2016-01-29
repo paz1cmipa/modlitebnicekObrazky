@@ -31,7 +31,7 @@ public class PridajAform extends javax.swing.JDialog {
         autorN.setMeno(autor);
         this.setSize(530,394);
         this.setTitle("Pridať životopis");
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
         this.setIconImage(im);
     }
 
@@ -77,7 +77,7 @@ public class PridajAform extends javax.swing.JDialog {
 
     private void pridajButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pridajButtonActionPerformed
         if(zivArea.getText().equals("") || autorField.getText().equals("")){
-         ImageIcon icon1 = new ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\oops.jpg");
+         ImageIcon icon1 = new ImageIcon("oops.jpg");
                 JOptionPane.showMessageDialog(
                         null,
                         "Vyplnte prosím požadované informácie.",

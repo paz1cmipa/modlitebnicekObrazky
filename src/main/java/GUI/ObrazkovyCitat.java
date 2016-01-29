@@ -26,7 +26,7 @@ public class ObrazkovyCitat extends javax.swing.JFrame {
     public ObrazkovyCitat() {
         initComponents();
         
-        File adresar = new File("C:\\Users\\Šimon\\Desktop\\Obrazkové citáty");
+        File adresar = new File("C:\\Users\\Obrazkové citáty");
         int pocet = this.spocitajObrazky(adresar);
         System.out.println(pocet);
         //System.out.println(cesty.toArray().toString());
@@ -34,7 +34,7 @@ public class ObrazkovyCitat extends javax.swing.JFrame {
         
        
         this.setTitle("Obrazkový Citát");
-        Image im = Toolkit.getDefaultToolkit().getImage("C:/Users/Šimon/Desktop/projekt/obr/aa.jpg");
+        Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
         this.setIconImage(im);
         this.setSize(1200, 900);
         getContentPane().setBackground(new Color(54, 58, 55));
