@@ -61,7 +61,7 @@ public class MainForm extends javax.swing.JFrame {
     public MainForm() {
         initComponents();
         
-    MysqlModlitba zoznam = new MysqlModlitba();
+                MysqlModlitba zoznam = new MysqlModlitba();
 		zoznam.dajVsetky();
 
 		Object[] elements = zoznam.dajVsetky().toArray();
@@ -211,7 +211,6 @@ public class MainForm extends javax.swing.JFrame {
 
         najstButton.setBackground(new java.awt.Color(204, 255, 255));
         najstButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        najstButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\najstM.jpg")); // NOI18N
         najstButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 najstButtonMouseEntered(evt);
@@ -233,7 +232,7 @@ public class MainForm extends javax.swing.JFrame {
         textBox.setRows(5);
         jScrollPane1.setViewportView(textBox);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 680, 330));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 680, 330));
 
         citatButton.setBackground(new java.awt.Color(204, 255, 255));
         citatButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -288,7 +287,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pridajButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, -1));
 
-        domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\1a.jpg")); // NOI18N
         domovButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 domovButtonMouseEntered(evt);
@@ -304,7 +302,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, -1));
 
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\n.jpg")); // NOI18N
         PRIDAJbutton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 PRIDAJbuttonMouseEntered(evt);
@@ -320,7 +317,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(PRIDAJbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, 70));
 
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\k2.jpg")); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseClicked(evt);
@@ -339,7 +335,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pribehButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, 70));
 
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\s1a.jpg")); // NOI18N
         nastaveniaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nastaveniaButtonMouseEntered(evt);
@@ -356,11 +351,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(nastaveniaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 90, 80, 80));
         getContentPane().add(pozadie, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 20, 10));
         getContentPane().add(choice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 170, 120, 30));
-
-        uvodzovkaL1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\CIT.jpg")); // NOI18N
         getContentPane().add(uvodzovkaL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 160, 40, 20));
-
-        uvodzovkaL2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\CIT.jpg")); // NOI18N
         getContentPane().add(uvodzovkaL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 110, -1, 30));
 
         zoznamList.setModel(new javax.swing.AbstractListModel() {
@@ -378,7 +369,6 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 260, 510));
 
         sipkaButton.setBackground(new java.awt.Color(153, 153, 255));
-        sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr.jpg")); // NOI18N
         sipkaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sipkaButtonActionPerformed(evt);
@@ -409,7 +399,6 @@ public class MainForm extends javax.swing.JFrame {
         menoLable.setText("menoumy sel");
         getContentPane().add(menoLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 210, 40));
 
-        laskaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Downloads\\ezgif.com-resize.gif")); // NOI18N
         laskaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 laskaButtonActionPerformed(evt);
@@ -417,7 +406,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(laskaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 70, 70));
 
-        downButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\down.jpg")); // NOI18N
         downButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 downButtonActionPerformed(evt);
@@ -439,7 +427,6 @@ public class MainForm extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 600, 680, 240));
 
-        zobrazFvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\fav1.jpg")); // NOI18N
         zobrazFvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zobrazFvtButtonMouseEntered(evt);
@@ -462,7 +449,6 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(zobrazitButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 710, -1, -1));
         getContentPane().add(fvtChoice, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 670, 150, 30));
 
-        fvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Folder-Blue-Favorite-icon.jpg")); // NOI18N
         fvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fvtButtonMouseEntered(evt);
@@ -475,7 +461,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(fvtButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 80, 80));
 
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg")); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 binButtonMouseEntered(evt);
@@ -493,7 +478,6 @@ public class MainForm extends javax.swing.JFrame {
 
         pozadieFvt.setBackground(new java.awt.Color(153, 153, 255));
         pozadieFvt.setForeground(new java.awt.Color(153, 153, 255));
-        pozadieFvt.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\hv.jpg")); // NOI18N
         getContentPane().add(pozadieFvt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 1150, 310));
 
         sviatokLable.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
@@ -509,7 +493,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(sviatokLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 290, -1));
 
-        pasik.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
         pasik.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 pasikMouseEntered(evt);
@@ -526,7 +509,6 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(casLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 270, 30));
 
         pp.setForeground(new java.awt.Color(255, 255, 255));
-        pp.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
         pp.setText("jLabel4");
         pp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -541,7 +523,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pp, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 50));
 
-        doplnokL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
         doplnokL.setText("jLabel4");
         doplnokL.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -553,7 +534,6 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(doplnokL, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 0, 170, 40));
 
-        pridajAbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\addTeraz.jpg")); // NOI18N
         pridajAbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pridajAbuttonActionPerformed(evt);

@@ -23,7 +23,7 @@ public class UmyselFile {
          FileWriter pw = null;
          
         try {
-                 pw = new FileWriter("C://Users//Šimon//Desktop//projekt//umysel.txt", true);
+                 pw = new FileWriter("C:\\Users\\MojaAplikacia//umysel.txt", true);
                  pw.write(meno+'\n');
                 
              
