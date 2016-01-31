@@ -14,7 +14,7 @@ public class PravdyViery {
     
     private int ID;
     private String nazov;
-    private String text;
+    private String obsah;
 
     public int getID() {
         return ID;
@@ -32,12 +32,12 @@ public class PravdyViery {
         this.nazov = nazov;
     }
 
-    public String getText() {
-        return text;
+    public String getObsah() {
+        return obsah;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setObsah(String text) {
+        this.obsah = text;
     }
     
     

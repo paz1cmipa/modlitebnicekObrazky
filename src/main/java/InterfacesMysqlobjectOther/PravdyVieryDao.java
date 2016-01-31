@@ -21,4 +21,8 @@ interface PravdyVieryDao {
     
     public List<PravdyViery> dajVsetky ();
     
+    public void upravit(PravdyViery pravdy);
+    
+    public List<PravdyViery> hladat(String s);
+    
 }
