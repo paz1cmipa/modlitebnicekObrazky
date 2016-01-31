@@ -79,6 +79,14 @@ public class MysqlModlitba implements ModlitbaDao {
 		}
 		return false;
 	}
+        
+        
+         /* public List<Modlitba> Hladat(String s){
+           String sql = "Select * from modlitby where nazov like '%"+s+"%'";
+           BeanPropertyRowMapper<Modlitba> mapper = BeanPropertyRowMapper.newInstance(Modlitba.class);
+           return jdbcTemplate.query(sql, mapper);
+        
+        }*/
 
 	public static void main(String[] args) {
 

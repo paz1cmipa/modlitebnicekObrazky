@@ -74,6 +74,13 @@ public class MysqlCitat implements CitatDao {
 		String sql = "DELETE FROM citaty WHERE id = ?";
 		jdbcTemplate.update(sql, citat.getId());
 	}
+        
+         /* public List<Citat> Hladat(String s){
+           String sql = "Select * from citaty where znenie like '%"+s+"%'";
+           BeanPropertyRowMapper<Citat> mapper = BeanPropertyRowMapper.newInstance(Citat.class);
+           return jdbcTemplate.query(sql, mapper);
+        
+        }*/
 
 	public static void main(String[] args) {
 
