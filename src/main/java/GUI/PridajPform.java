@@ -107,15 +107,12 @@ public class PridajPform extends javax.swing.JFrame {
         jLabel1.setText("Príbeh:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
 
-        control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch2c.jpg")); // NOI18N
         control.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 controlActionPerformed(evt);
             }
         });
-        getContentPane().add(control, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, 60, -1));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\prifajPform.jpg")); // NOI18N
+        getContentPane().add(control, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 60, 30));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 690, 390));
 
         pack();

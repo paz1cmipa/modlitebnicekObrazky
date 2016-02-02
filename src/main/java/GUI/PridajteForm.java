@@ -45,13 +45,14 @@ public class PridajteForm extends javax.swing.JFrame {
         citatLabel = new javax.swing.JLabel();
         pribehLabel = new javax.swing.JLabel();
         zatvorButton = new javax.swing.JButton();
+        pravdyButton = new javax.swing.JButton();
+        pravdyLabel = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setModalExclusionType(null);
         getContentPane().setLayout(null);
 
         modlitbaButton.setBackground(new java.awt.Color(0, 102, 255));
-        modlitbaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\m4w.jpg")); // NOI18N
         modlitbaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 modlitbaButtonMouseEntered(evt);
@@ -66,10 +67,9 @@ public class PridajteForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(modlitbaButton);
-        modlitbaButton.setBounds(31, 66, 130, 150);
+        modlitbaButton.setBounds(30, 60, 130, 150);
 
         citatButton.setBackground(new java.awt.Color(255, 255, 255));
-        citatButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg")); // NOI18N
         citatButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 citatButtonMouseEntered(evt);
@@ -84,10 +84,9 @@ public class PridajteForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(citatButton);
-        citatButton.setBounds(272, 58, 130, 150);
+        citatButton.setBounds(170, 60, 130, 150);
 
         pribehButton.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg")); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseEntered(evt);
@@ -102,29 +101,28 @@ public class PridajteForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(pribehButton);
-        pribehButton.setBounds(500, 60, 130, 150);
+        pribehButton.setBounds(310, 60, 130, 150);
 
         modlitbaLabel.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         modlitbaLabel.setForeground(new java.awt.Color(255, 255, 255));
         modlitbaLabel.setText("Modlitba");
         getContentPane().add(modlitbaLabel);
-        modlitbaLabel.setBounds(45, 235, 104, 29);
+        modlitbaLabel.setBounds(50, 230, 104, 29);
 
         citatLabel.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         citatLabel.setForeground(new java.awt.Color(255, 255, 255));
         citatLabel.setText("Citát");
         getContentPane().add(citatLabel);
-        citatLabel.setBounds(320, 230, 57, 29);
+        citatLabel.setBounds(210, 230, 57, 29);
 
         pribehLabel.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         pribehLabel.setForeground(new java.awt.Color(255, 255, 255));
         pribehLabel.setText("Príbeh");
         getContentPane().add(pribehLabel);
-        pribehLabel.setBounds(530, 230, 77, 29);
+        pribehLabel.setBounds(330, 230, 77, 29);
 
         zatvorButton.setBackground(new java.awt.Color(255, 255, 255));
         zatvorButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        zatvorButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\e111.jpg")); // NOI18N
         zatvorButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zatvorButtonMouseEntered(evt);
@@ -141,7 +139,25 @@ public class PridajteForm extends javax.swing.JFrame {
         getContentPane().add(zatvorButton);
         zatvorButton.setBounds(560, 300, 80, 70);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ir_attachment_70.jpeg")); // NOI18N
+        pravdyButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pravdyButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(pravdyButton);
+        pravdyButton.setBounds(450, 60, 120, 150);
+
+        pravdyLabel.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        pravdyLabel.setForeground(new java.awt.Color(255, 255, 255));
+        pravdyLabel.setText("Pravdy Viery");
+        getContentPane().add(pravdyLabel);
+        pravdyLabel.setBounds(450, 220, 160, 50);
+
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
         getContentPane().add(jLabel4);
         jLabel4.setBounds(0, -20, 730, 430);
 
@@ -213,6 +229,15 @@ public class PridajteForm extends javax.swing.JFrame {
         form.setVisible(true);
     }//GEN-LAST:event_pribehButtonActionPerformed
 
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void pravdyButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pravdyButtonActionPerformed
+        PridatPravdyForm pridat = new PridatPravdyForm(this, true);
+        pridat.setVisible(true);
+    }//GEN-LAST:event_pravdyButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -255,6 +280,8 @@ public class PridajteForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JButton modlitbaButton;
     private javax.swing.JLabel modlitbaLabel;
+    private javax.swing.JButton pravdyButton;
+    private javax.swing.JLabel pravdyLabel;
     private javax.swing.JButton pribehButton;
     private javax.swing.JLabel pribehLabel;
     private javax.swing.JButton zatvorButton;

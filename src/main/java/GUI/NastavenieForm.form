@@ -4,17 +4,11 @@
   <NonVisualComponents>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Pictures\set\set.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel2"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Pictures\set\set.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
     </Component>
@@ -22,9 +16,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="66" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\podlozka.jpg"/>
         </Property>
       </Properties>
     </Component>
@@ -62,11 +53,6 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JButton" name="setMotivButton">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\mat.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="setMotivButtonMouseEntered"/>
         <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="setMotivButtonMouseExited"/>
@@ -127,11 +113,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="sipkaP">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\zP.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sipkaPMouseEntered"/>
         <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sipkaPMouseExited"/>
@@ -144,11 +125,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="sipkaL">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\zL.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sipkaLMouseEntered"/>
         <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sipkaLMouseExited"/>
@@ -164,9 +140,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="33" red="33" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\bomba.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -190,11 +163,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="minusB">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\fontsizedown.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="minusBMouseEntered"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="minusBActionPerformed"/>
@@ -206,11 +174,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="fontButton">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\font3.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fontButtonMouseEntered"/>
         <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fontButtonMouseExited"/>
@@ -223,11 +186,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="plusB">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\fontsizeup.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="plusBMouseEntered"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="plusBActionPerformed"/>
@@ -249,11 +207,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="bubleL">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\bubping.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bubleLMouseEntered"/>
         <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bubleLMouseExited"/>
@@ -309,9 +262,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="pozadie">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\settings-wooden2.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value=" "/>
       </Properties>
       <Constraints>

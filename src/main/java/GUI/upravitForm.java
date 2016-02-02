@@ -13,19 +13,26 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import Entity.Citat;
 import Entity.Modlitba;
+import Entity.PravdyViery;
 import InterfacesMysqlobjectOther.MysqlCitat;
 import InterfacesMysqlobjectOther.MysqlModlitba;
 import InterfacesMysqlobjectOther.MysqlPribeh;
 import Entity.Pribeh;
+import InterfacesMysqlobjectOther.PravdyVieryDao;
+import InterfacesMysqlobjectOther.PravdyVieryDaoFactory;
+import javax.swing.JOptionPane;
 
 
 public class upravitForm extends javax.swing.JFrame {
 
+    private PravdyVieryDao pravdyMySql = PravdyVieryDaoFactory.INSTANCE.getPravdyVieryDao();
+    
     private int vyber = 0;
     
     private Modlitba mM=null;
     private Pribeh mP=null;
     private Citat mC=null;
+    private PravdyViery pravda = null;
     
     public upravitForm() {
         initComponents();
@@ -76,6 +83,13 @@ public class upravitForm extends javax.swing.JFrame {
                      choice1.addItem("Z Biblie");
                      choice1.addItem("Citáty svätcov");
                 }
+                  
+                  if(selectedItem.equals("Pravdy Viery")){
+                      ListUprava.setListData(pravdyMySql.dajVsetky().toArray());
+                      coUpravujem.setText("Pravdy Viery");
+                      vyber = 4;
+                      
+                  }
         
     }
     
@@ -211,6 +225,12 @@ public class upravitForm extends javax.swing.JFrame {
          mC= citat;
           
         }
+        
+        if(vyber == 4){
+            pravda = (PravdyViery) ListUprava.getSelectedValue();
+            change1.setText(pravda.getNazov());
+            change2.setText(pravda.getObsah());
+        }
     }//GEN-LAST:event_upravButtonActionPerformed
 
     private void ulozButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ulozButtonActionPerformed
@@ -261,6 +281,20 @@ public class upravitForm extends javax.swing.JFrame {
 			c.pridat(cit);
 			c.odstranit(mC);
 		}
+                if(vyber == 4){
+                     if(change1.getText().trim().isEmpty()){
+                       JOptionPane.showMessageDialog(this, "Nie je zadaný názov", "Chyba", JOptionPane.ERROR_MESSAGE);
+                       return;
+                      }
+                     if(change2.getText().trim().isEmpty()){
+                          JOptionPane.showMessageDialog(this, "Nie je zadané znenie", "Chyba", JOptionPane.ERROR_MESSAGE);
+                            return;
+                          }
+                    pravda.setNazov(change1.getText());
+                    pravda.setObsah(change2.getText());
+                    pravdyMySql.upravit(pravda);
+                          
+                }
 		this.setVisible(false);
     }//GEN-LAST:event_ulozButtonActionPerformed
 
@@ -300,7 +334,11 @@ public class upravitForm extends javax.swing.JFrame {
           ListUprava.setListData(c.dajVsetky().toArray());
 
         }
-
+        if(vyber == 4){
+            pravda = (PravdyViery) ListUprava.getSelectedValue();
+            pravdyMySql.odstranit(pravda);
+            ListUprava.setListData(pravdyMySql.dajVsetky().toArray());
+        }
 
     }//GEN-LAST:event_binButtonActionPerformed
 

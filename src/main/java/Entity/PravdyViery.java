@@ -39,6 +39,11 @@ public class PravdyViery {
     public void setObsah(String text) {
         this.obsah = text;
     }
+
+    @Override
+    public String toString() {
+        return nazov;
+    }
     
     
 }

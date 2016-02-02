@@ -203,6 +203,7 @@ public class MainForm extends javax.swing.JFrame {
         pp = new javax.swing.JLabel();
         doplnokL = new javax.swing.JLabel();
         pridajAbutton = new javax.swing.JButton();
+        pravdyVieryButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 0, 51));
@@ -540,6 +541,15 @@ public class MainForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(pridajAbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 510, 50, 50));
+
+        pravdyVieryButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        pravdyVieryButton.setText("Pravdy kresťanskej viery");
+        pravdyVieryButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pravdyVieryButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(pravdyVieryButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 250, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1160,6 +1170,11 @@ public class MainForm extends javax.swing.JFrame {
          
     }//GEN-LAST:event_binButtonMouseExited
 
+    private void pravdyVieryButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pravdyVieryButtonActionPerformed
+          PravdyVieryForm pravdy = new PravdyVieryForm(this, true);
+          pravdy.setVisible(true);
+    }//GEN-LAST:event_pravdyVieryButtonActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -1220,6 +1235,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JLabel pozadie;
     private javax.swing.JLabel pozadieFvt;
     private javax.swing.JLabel pp;
+    private javax.swing.JButton pravdyVieryButton;
     private javax.swing.JButton pribehButton;
     private javax.swing.JButton pridajAbutton;
     private javax.swing.JButton pridajButton;

@@ -52,6 +52,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         vyberCombo.addItem("Modlitby");
         vyberCombo.addItem("Citáty");
         vyberCombo.addItem("Príbehy");
+        vyberCombo.addItem("Pravdy Viery");
         
         this.setSize(620,389);
        
