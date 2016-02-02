@@ -118,12 +118,12 @@ public class MysqlPribeh implements PribehDao {
 	}
         
         
-         /* public List<Pribeh> Hladat(String s){
+         public List<Pribeh> Hladat(String s){
            String sql = "Select * from pribehy where nazov like '%"+s+"%'";
            BeanPropertyRowMapper<Pribeh> mapper = BeanPropertyRowMapper.newInstance(Pribeh.class);
            return jdbcTemplate.query(sql, mapper);
         
-        }*/
+        }
 
 	public static void main(String[] args) {
 

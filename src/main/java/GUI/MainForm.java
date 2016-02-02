@@ -204,6 +204,8 @@ public class MainForm extends javax.swing.JFrame {
         doplnokL = new javax.swing.JLabel();
         pridajAbutton = new javax.swing.JButton();
         pravdyVieryButton = new javax.swing.JButton();
+        hladajTextField = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 0, 51));
@@ -550,6 +552,16 @@ public class MainForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(pravdyVieryButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 250, -1));
+        getContentPane().add(hladajTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 10, 140, 30));
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton1.setText("Hľadaj");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 10, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1175,6 +1187,12 @@ public class MainForm extends javax.swing.JFrame {
           pravdy.setVisible(true);
     }//GEN-LAST:event_pravdyVieryButtonActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       String slovo = hladajTextField.getText();
+       HladajForm hladaj = new HladajForm(this, true, slovo);
+       hladaj.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -1221,6 +1239,8 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JButton fvtButton;
     private java.awt.Choice fvtChoice;
     private javax.swing.JList fvtList;
+    private javax.swing.JTextField hladajTextField;
+    private javax.swing.JButton jButton1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;

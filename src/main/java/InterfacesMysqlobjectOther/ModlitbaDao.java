@@ -10,7 +10,7 @@ import java.util.List;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
 
-interface ModlitbaDao {
+public interface ModlitbaDao {
     
     
         public void pridat(Modlitba modlitba);
@@ -24,6 +24,8 @@ interface ModlitbaDao {
         public Modlitba dajModlitbu(String nazov);
          
         public boolean contains(String nazov);
+        
+        public List<Modlitba> Hladat(String s);
         
         
         

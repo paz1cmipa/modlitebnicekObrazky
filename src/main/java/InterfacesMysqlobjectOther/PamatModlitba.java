@@ -77,6 +77,11 @@ public class PamatModlitba implements ModlitbaDao {
 		return false;
     
     }
+
+    @Override
+    public List<Modlitba> Hladat(String s) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     }
 
 

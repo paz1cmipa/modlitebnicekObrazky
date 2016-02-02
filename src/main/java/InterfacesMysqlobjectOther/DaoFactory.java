@@ -9,12 +9,12 @@ package InterfacesMysqlobjectOther;
  *
  * @author Šimon
  */
-public enum ModlitbaDaoFactory {
+public enum DaoFactory {
     
        INSTANCE;
     
     
-    public ModlitbaDao getModlitbaDao(){ 
+   /* public ModlitbaDao getModlitbaDao(){ 
         String profil =System.getProperty("profil");
         
         if ("pamat".equals(profil)){
@@ -23,6 +23,21 @@ public enum ModlitbaDaoFactory {
            return new MysqlModlitba();
         }
     
+    }*/
+       public ModlitbaDao getModlitbaDao(){
+        return new MysqlModlitba();
     }
+    
+       public PribehDao getPribehDao(){
+           return new MysqlPribeh();
+       }
+       
+       public CitatDao getCitatDao(){
+           return new MysqlCitat();
+       }
+       
+       public AutorDao getAutorDao(){
+           return new MysqlAutor();
+       }
 
 }

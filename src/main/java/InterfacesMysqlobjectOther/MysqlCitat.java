@@ -75,12 +75,12 @@ public class MysqlCitat implements CitatDao {
 		jdbcTemplate.update(sql, citat.getId());
 	}
         
-         /* public List<Citat> Hladat(String s){
+         public List<Citat> Hladat(String s){
            String sql = "Select * from citaty where znenie like '%"+s+"%'";
            BeanPropertyRowMapper<Citat> mapper = BeanPropertyRowMapper.newInstance(Citat.class);
            return jdbcTemplate.query(sql, mapper);
         
-        }*/
+        }
 
 	public static void main(String[] args) {
 

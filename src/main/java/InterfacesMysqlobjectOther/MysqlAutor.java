@@ -71,12 +71,12 @@ public class MysqlAutor implements AutorDao {
 	}
         
         
-       /* public List<Autor> Hladat(String s){
+       public List<Autor> Hladat(String s){
            String sql = "Select * from autor where meno like '%"+s+"%'";
            BeanPropertyRowMapper<Autor> mapper = BeanPropertyRowMapper.newInstance(Autor.class);
            return jdbcTemplate.query(sql, mapper);
         
-        }*/
+        }
 
 	public static void main(String[] args) {
 

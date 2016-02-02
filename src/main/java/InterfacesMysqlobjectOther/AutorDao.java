@@ -9,7 +9,7 @@ import Entity.Autor;
 import java.util.List;
 
 
-interface AutorDao {
+public interface AutorDao {
     
      public void pridat(Autor autor);
      
@@ -20,4 +20,6 @@ interface AutorDao {
      public Autor dajAutora(String meno);
      
      public List<Autor> dajVsetkych();
+     
+      public List<Autor> Hladat(String s);
 }

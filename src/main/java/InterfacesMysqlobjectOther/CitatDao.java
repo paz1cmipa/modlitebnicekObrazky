@@ -8,7 +8,7 @@ package InterfacesMysqlobjectOther;
 import Entity.Citat;
 import java.util.List;
 
-interface CitatDao {
+public interface CitatDao {
     
     
      public void pridat(Citat citat);
@@ -22,6 +22,8 @@ interface CitatDao {
      public Citat dajNahodnyBiblickyCitat();
      
      public Citat dajNahodnyNebiblickyCitat();
+     
+     public List<Citat> Hladat(String s);
      
      
 }

@@ -15,7 +15,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
  *
  * @author Šimon
  */
-interface PribehDao {
+public interface PribehDao {
     
         public void pridat(Pribeh pribeh);
 
@@ -36,6 +36,8 @@ interface PribehDao {
 	public Pribeh dajNahodnyPribeh();
         
         public List<Pribeh> dajZdennika();
+        
+         public List<Pribeh> Hladat(String s);
 
         
         
