@@ -54,7 +54,7 @@
     <Component class="javax.swing.JButton" name="domovButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\HomeButton\1a.jpg"/>
+          <Image iconType="3" name="/Obrazky/1a.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -71,7 +71,7 @@
     <Component class="javax.swing.JButton" name="PRIDAJbutton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\n.jpg"/>
+          <Image iconType="3" name="/Obrazky/k2.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -86,7 +86,7 @@
     <Component class="javax.swing.JButton" name="pribehButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\mod.jpg"/>
+          <Image iconType="3" name="/Obrazky/mod.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -104,7 +104,7 @@
     <Component class="javax.swing.JButton" name="nastaveniaButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\s1a.jpg"/>
+          <Image iconType="3" name="/Obrazky/s1a.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -150,7 +150,7 @@
           <Color blue="ff" green="99" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\arr.jpg"/>
+          <Image iconType="3" name="/Obrazky/arr.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -214,7 +214,7 @@
     <Component class="javax.swing.JButton" name="jButton5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\fav1.jpg"/>
+          <Image iconType="3" name="/Obrazky/fav1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -229,7 +229,7 @@
     <Component class="javax.swing.JButton" name="fvtButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Folder-Blue-Favorite-icon.jpg"/>
+          <Image iconType="3" name="/Obrazky/Folder-Blue-Favorite-icon.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -275,7 +275,7 @@
     <Component class="javax.swing.JButton" name="binButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\bin1.jpg"/>
+          <Image iconType="3" name="/Obrazky/bin1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -298,7 +298,7 @@
           <Color blue="ff" green="99" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\hv.jpg"/>
+          <Image iconType="3" name="/Obrazky/hv.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -325,9 +325,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\podlozka.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
       <Events>
@@ -365,9 +362,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\Motivy\podlozka.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel3"/>
       </Properties>
       <Events>
@@ -381,6 +375,11 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="pozadie">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Obrazky/Bible1.jpg"/>
+        </Property>
+      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="0" width="880" height="560"/>

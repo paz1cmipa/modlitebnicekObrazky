@@ -41,7 +41,6 @@ import InterfacesMysqlobjectOther.Sviatok;
 import InterfacesMysqlobjectOther.MysqlBonus;
 import InterfacesMysqlobjectOther.MysqlUmysel;
 
-
 public class MainForm extends javax.swing.JFrame {
 
    private Citat citat;
@@ -52,7 +51,7 @@ public class MainForm extends javax.swing.JFrame {
    private int pocitadlo = 0;
    private int pocitadlo2 = 0;
    private int fvtVisible = 1;
-   private ImageIcon aktualny = new javax.swing.ImageIcon("Cross-Easter.jpg");       
+   private ImageIcon aktualny = new javax.swing.ImageIcon(getClass().getResource("/Obrazky/Cross-Easter.jpg"));       
    private int sviatok = 0;
    private Kniha k = new Kniha(this);
    int den = 0;
@@ -121,7 +120,9 @@ public class MainForm extends javax.swing.JFrame {
 		pasik.setVisible(false);
 		doplnokL.setVisible(false);
 		pridajAbutton.setVisible(false);
-       
+                
+                
+           
 
     
      
@@ -214,6 +215,7 @@ public class MainForm extends javax.swing.JFrame {
 
         najstButton.setBackground(new java.awt.Color(204, 255, 255));
         najstButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        najstButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/najstM.jpg"))); // NOI18N
         najstButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 najstButtonMouseEntered(evt);
@@ -290,6 +292,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pridajButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, -1));
 
+        domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/1a.jpg"))); // NOI18N
         domovButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 domovButtonMouseEntered(evt);
@@ -305,6 +308,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, -1));
 
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/n.jpg"))); // NOI18N
         PRIDAJbutton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 PRIDAJbuttonMouseEntered(evt);
@@ -320,6 +324,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(PRIDAJbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, 70));
 
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/k2.jpg"))); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseClicked(evt);
@@ -338,6 +343,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pribehButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, 70));
 
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/s1.jpg"))); // NOI18N
         nastaveniaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nastaveniaButtonMouseEntered(evt);
@@ -372,6 +378,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 260, 510));
 
         sipkaButton.setBackground(new java.awt.Color(153, 153, 255));
+        sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr.jpg"))); // NOI18N
         sipkaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sipkaButtonActionPerformed(evt);
@@ -409,6 +416,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(laskaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 70, 70));
 
+        downButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/down.jpg"))); // NOI18N
         downButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 downButtonActionPerformed(evt);
@@ -430,6 +438,7 @@ public class MainForm extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 600, 680, 240));
 
+        zobrazFvtButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/fav1.jpg"))); // NOI18N
         zobrazFvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zobrazFvtButtonMouseEntered(evt);
@@ -452,6 +461,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(zobrazitButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 710, -1, -1));
         getContentPane().add(fvtChoice, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 670, 150, 30));
 
+        fvtButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/Folder-Blue-Favorite-icon.jpg"))); // NOI18N
         fvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fvtButtonMouseEntered(evt);
@@ -464,6 +474,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(fvtButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 80, 80));
 
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg"))); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 binButtonMouseEntered(evt);
@@ -481,6 +492,7 @@ public class MainForm extends javax.swing.JFrame {
 
         pozadieFvt.setBackground(new java.awt.Color(153, 153, 255));
         pozadieFvt.setForeground(new java.awt.Color(153, 153, 255));
+        pozadieFvt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/hv.jpg"))); // NOI18N
         getContentPane().add(pozadieFvt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 1150, 310));
 
         sviatokLable.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
@@ -836,38 +848,38 @@ public class MainForm extends javax.swing.JFrame {
     }//GEN-LAST:event_pribehButtonMouseClicked
 
     private void pribehButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseEntered
-        pribehButton.setIcon(new javax.swing.ImageIcon("k3.jpg"));
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/k3.jpg")));
         pribehButton.setToolTipText("Knižný mód");
     }//GEN-LAST:event_pribehButtonMouseEntered
 
     private void pribehButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseExited
-         pribehButton.setIcon(new javax.swing.ImageIcon("k2.jpg"));
+         pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/k2.jpg")));
     }//GEN-LAST:event_pribehButtonMouseExited
 
     private void najstButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_najstButtonMouseEntered
-      najstButton.setIcon(new javax.swing.ImageIcon("najstMk.jpg"));
+      najstButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/najstMk.jpg")));
     }//GEN-LAST:event_najstButtonMouseEntered
 
     private void najstButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_najstButtonMouseExited
-      najstButton.setIcon(new javax.swing.ImageIcon("najstM.jpg")); 
+      najstButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/najstM.jpg"))); 
     }//GEN-LAST:event_najstButtonMouseExited
 
     private void domovButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseEntered
         domovButton.setToolTipText("Domov");
-        domovButton.setIcon(new javax.swing.ImageIcon("2a.jpg"));
+        domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/2a.jpg")));
     }//GEN-LAST:event_domovButtonMouseEntered
 
     private void domovButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseExited
-    domovButton.setIcon(new javax.swing.ImageIcon("1a.jpg"));
+    domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/1a.jpg")));
     }//GEN-LAST:event_domovButtonMouseExited
 
     private void nastaveniaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseEntered
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("setting2.jpg"));
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/setting22.jpg")));
         nastaveniaButton.setToolTipText("Nastavvenia");
     }//GEN-LAST:event_nastaveniaButtonMouseEntered
 
     private void nastaveniaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseExited
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("s1a.jpg"));
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/s1a.jpg")));
     }//GEN-LAST:event_nastaveniaButtonMouseExited
 
     private void nastaveniaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nastaveniaButtonActionPerformed
@@ -891,12 +903,12 @@ public class MainForm extends javax.swing.JFrame {
 
     private void PRIDAJbuttonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PRIDAJbuttonMouseEntered
       
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("n2.jpg"));
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/n2.jpg")));
         PRIDAJbutton.setToolTipText("Pridať..");
     }//GEN-LAST:event_PRIDAJbuttonMouseEntered
 
     private void PRIDAJbuttonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PRIDAJbuttonMouseExited
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("n.jpg"));
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/n.jpg")));
 
     }//GEN-LAST:event_PRIDAJbuttonMouseExited
 
@@ -913,12 +925,12 @@ public class MainForm extends javax.swing.JFrame {
         if(pocitadlo % 2==0){
          zoznamList.setVisible(false);  
          this.setSize(887, 600);
-         sipkaButton.setIcon(new javax.swing.ImageIcon("arr.jpg"));
+         sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr.jpg")));
 
         }else{
            this.setSize(1145, 600); 
            zoznamList.setVisible(true);
-           sipkaButton.setIcon(new javax.swing.ImageIcon("arr2.jpg"));
+           sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr2.jpg")));
         }
     }//GEN-LAST:event_sipkaButtonActionPerformed
 
@@ -1172,13 +1184,13 @@ public class MainForm extends javax.swing.JFrame {
     private void binButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseEntered
                 
         if(!(fvtList.isSelectionEmpty())){
-              binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
+              binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin2.jpg")));
         }
     }//GEN-LAST:event_binButtonMouseEntered
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
-         binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
+         binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg")));
          
     }//GEN-LAST:event_binButtonMouseExited
 

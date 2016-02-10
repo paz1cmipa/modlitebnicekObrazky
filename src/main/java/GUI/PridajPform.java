@@ -107,12 +107,15 @@ public class PridajPform extends javax.swing.JFrame {
         jLabel1.setText("Príbeh:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
 
+        control.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/ch2c.jpg"))); // NOI18N
         control.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 controlActionPerformed(evt);
             }
         });
         getContentPane().add(control, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 60, 30));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/prifajPform.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 690, 390));
 
         pack();
@@ -138,7 +141,7 @@ public class PridajPform extends javax.swing.JFrame {
         Pribeh pribeh = new Pribeh(nazovField.getText(), this.formatuj(pribehArea.getText(), 14), kategoria);
         novy.pridat(pribeh);
         
-         ImageIcon icon = new ImageIcon("add_folder.jpg");
+         ImageIcon icon = new javax.swing.ImageIcon(getClass().getResource("/Obrazky/add_folder.jpg"));
 
           JOptionPane.showMessageDialog(
                         null,
@@ -158,10 +161,10 @@ public class PridajPform extends javax.swing.JFrame {
 
             pridajButton.setEnabled(true);
             pribehArea.setVisible(true);
-            control.setIcon(new javax.swing.ImageIcon("ch2.jpg"));
+            control.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/ch2.jpg")));
 
         }else{
-            control.setIcon(new javax.swing.ImageIcon("jpg"));
+            control.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/ch1.jpg")));
             pridajButton.setEnabled(false);
         }
 

@@ -43,9 +43,9 @@ public class NastavenieForm extends javax.swing.JDialog {
         
         sipkaL.setVisible(false);
 
-        obrazky.add("mat.jpg");
-        obrazky.add("3m.jpg");
-        obrazky.add("default.jpg");
+        obrazky.add("/Obrazky/mat.jpg");
+        obrazky.add("/Obrazky/3m.jpg");
+        obrazky.add("/Obrazky/default.jpg");
 
         
         
@@ -96,14 +96,11 @@ public class NastavenieForm extends javax.swing.JDialog {
         jButton4 = new javax.swing.JButton();
         pozadie = new javax.swing.JLabel();
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Pictures\\set\\set.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Pictures\\set\\set.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
 
         podlozka1.setBackground(new java.awt.Color(102, 102, 102));
-        podlozka1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
 
         jLabel8.setText("jLabel8");
 
@@ -111,7 +108,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         setBackground(new java.awt.Color(102, 102, 102));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        setMotivButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\mat.jpg")); // NOI18N
+        setMotivButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/default.jpg"))); // NOI18N
         setMotivButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 setMotivButtonMouseEntered(evt);
@@ -149,7 +146,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         getContentPane().add(upravDataButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 140, -1, -1));
         getContentPane().add(vyberCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 130, 40));
 
-        sipkaP.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zP.jpg")); // NOI18N
+        sipkaP.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zP.jpg"))); // NOI18N
         sipkaP.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 sipkaPMouseEntered(evt);
@@ -165,7 +162,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(sipkaP, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 20, 30));
 
-        sipkaL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\zL.jpg")); // NOI18N
+        sipkaL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zL.jpg"))); // NOI18N
         sipkaL.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 sipkaLMouseEntered(evt);
@@ -182,12 +179,11 @@ public class NastavenieForm extends javax.swing.JDialog {
         getContentPane().add(sipkaL, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 20, 30));
 
         priesvPodlL.setBackground(new java.awt.Color(51, 51, 51));
-        priesvPodlL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bomba.jpg")); // NOI18N
         getContentPane().add(priesvPodlL, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 220, 210));
         getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, -1, -1));
         getContentPane().add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, -1, -1));
 
-        minusB.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\fontsizedown.jpg")); // NOI18N
+        minusB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/fontsizedown.jpg"))); // NOI18N
         minusB.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 minusBMouseEntered(evt);
@@ -200,7 +196,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(minusB, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 270, 40, 40));
 
-        fontButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\font3.jpg")); // NOI18N
+        fontButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/font2.jpg"))); // NOI18N
         fontButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fontButtonMouseEntered(evt);
@@ -216,7 +212,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(fontButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 60, 60));
 
-        plusB.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\fontsizeup.jpg")); // NOI18N
+        plusB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/fontsizeup.jpg"))); // NOI18N
         plusB.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 plusBMouseEntered(evt);
@@ -232,7 +228,6 @@ public class NastavenieForm extends javax.swing.JDialog {
         jButton7.setText("jButton7");
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
 
-        bubleL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bubping.jpg")); // NOI18N
         bubleL.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 bubleLMouseEntered(evt);
@@ -256,7 +251,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         jButton4.setText("jButton4");
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 410, -1, -1));
 
-        pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\settings-wooden2.jpg")); // NOI18N
+        pozadie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/settings-wooden2.jpg"))); // NOI18N
         pozadie.setText(" ");
         getContentPane().add(pozadie, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -120, 660, 500));
 
@@ -265,27 +260,27 @@ public class NastavenieForm extends javax.swing.JDialog {
 
     private void sipkaPMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaPMouseEntered
 
-                sipkaP.setIcon(new javax.swing.ImageIcon("zPs.jpg")); // NOI18N
+                sipkaP.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zPs.jpg"))); // NOI18N
 
         
     }//GEN-LAST:event_sipkaPMouseEntered
 
     private void sipkaPMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaPMouseExited
       
-                sipkaP.setIcon(new javax.swing.ImageIcon("zP.jpg")); // NOI18N
+                sipkaP.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zP.jpg"))); // NOI18N
 
     }//GEN-LAST:event_sipkaPMouseExited
 
     private void sipkaLMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaLMouseEntered
 
         
-                sipkaL.setIcon(new javax.swing.ImageIcon("zLs.jpg")); // NOI18N
+                sipkaL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zLs.jpg"))); // NOI18N
 
     }//GEN-LAST:event_sipkaLMouseEntered
 
     private void sipkaLMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sipkaLMouseExited
 
-                sipkaL.setIcon(new javax.swing.ImageIcon("zL.jpg")); // NOI18N
+                sipkaL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/zL.jpg"))); // NOI18N
 
 
     }//GEN-LAST:event_sipkaLMouseExited
@@ -293,14 +288,14 @@ public class NastavenieForm extends javax.swing.JDialog {
     private void setMotivButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setMotivButtonActionPerformed
 
        List<String> obrazkyV = new ArrayList<String>();
-       obrazkyV.add("4.jpg");
-       obrazkyV.add("3.jpg"); 
-       obrazkyV.add("Cross-Easter.jpg");
+       obrazkyV.add("/Obrazky/4.jpg");
+       obrazkyV.add("/Obrazky/3.jpg"); 
+       obrazkyV.add("/Obrazky/Cross-Easter.jpg");
 
       
        
-       mf.setPozadie( new javax.swing.ImageIcon(obrazkyV.get(pocitadlo)));
-       mf.setAktualny(new javax.swing.ImageIcon(obrazkyV.get(pocitadlo)));
+       mf.setPozadie( new javax.swing.ImageIcon(getClass().getResource(obrazkyV.get(pocitadlo))));
+       mf.setAktualny( new javax.swing.ImageIcon(getClass().getResource(obrazkyV.get(pocitadlo))));
        mf.setVisible(true);
         
 
@@ -310,14 +305,14 @@ public class NastavenieForm extends javax.swing.JDialog {
 
         sipkaL.setVisible(true);
         if(pocitadlo==obrazky.size()-2){
-            setMotivButton.setIcon(new javax.swing.ImageIcon(obrazky.get(pocitadlo+1)));
+            setMotivButton.setIcon(( new javax.swing.ImageIcon(getClass().getResource(obrazky.get(pocitadlo+1)))));
             sipkaP.setVisible(false);
             pocitadlo++;
             return;
         }
         pocitadlo++;
         
-        setMotivButton.setIcon(new javax.swing.ImageIcon(obrazky.get(pocitadlo)));
+        setMotivButton.setIcon( new javax.swing.ImageIcon(getClass().getResource(obrazky.get(pocitadlo))));
 
         
         
@@ -330,7 +325,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         
        if(pocitadlo==1){
            sipkaL.setVisible(false);
-           setMotivButton.setIcon(new javax.swing.ImageIcon(obrazky.get(0)));
+           setMotivButton.setIcon( new javax.swing.ImageIcon(getClass().getResource(obrazky.get(0))));
             pocitadlo--;
             return;
 
@@ -338,7 +333,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         
         
         pocitadlo--;
-        setMotivButton.setIcon(new javax.swing.ImageIcon(obrazky.get(pocitadlo)));
+        setMotivButton.setIcon( new javax.swing.ImageIcon(getClass().getResource(obrazky.get(pocitadlo))));
 
              
     }//GEN-LAST:event_sipkaLActionPerformed

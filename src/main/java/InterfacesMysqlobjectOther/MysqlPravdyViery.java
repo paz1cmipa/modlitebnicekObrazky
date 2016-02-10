@@ -7,9 +7,15 @@ package InterfacesMysqlobjectOther;
 
 import Entity.PravdyViery;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 
 /**
  *
@@ -18,7 +24,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public class MysqlPravdyViery implements PravdyVieryDao{
 
     private JdbcTemplate jdbcTemplate;
-    
+     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
     
     public MysqlPravdyViery(){
      	MysqlDataSource dataSource = new MysqlDataSource();
@@ -27,20 +33,30 @@ public class MysqlPravdyViery implements PravdyVieryDao{
 	dataSource.setUser("paz1cuser");
 	dataSource.setPassword("simon.123");
 	jdbcTemplate = new JdbcTemplate(dataSource);
+         this.namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(this.jdbcTemplate);
 	
     }
     
     
     @Override
     public void pridat(PravdyViery pravdy) {
-        String sql="Insert into  PravdyViery values (?,?,?)";
-        jdbcTemplate.update(sql, null,pravdy.getNazov(),pravdy.getObsah());
+        Map<String, Object> pridatHodnoty = new HashMap<String, Object>();
+        pridatHodnoty.put("id", pravdy.getID());
+        pridatHodnoty.put("nazov", pravdy.getNazov());
+        pridatHodnoty.put("obsah", pravdy.getObsah());
+  
         
+        String sql = "INSERT INTO PravdyViery VALUES(:id, :nazov, :obsah)";
+
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+        namedParameterJdbcTemplate.update(sql, new MapSqlParameterSource(pridatHodnoty), keyHolder);
+        int id = keyHolder.getKey().intValue();
+        pravdy.setID(id);
     }
 
     @Override
     public void odstranit(PravdyViery pravdy) {
-        String sql="Delete from PravdyViery where ID= ?";
+        String sql="Delete from PravdyViery where ID = ?";
         jdbcTemplate.update(sql,pravdy.getID());
 
         
@@ -71,7 +87,7 @@ public class MysqlPravdyViery implements PravdyVieryDao{
     }
     
     
-    
+
     
     
 }

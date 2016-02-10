@@ -162,7 +162,7 @@ public class upravitForm extends javax.swing.JFrame {
         getContentPane().add(zrusButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 320, -1, -1));
         getContentPane().add(choice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 52, 124, -1));
 
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg")); // NOI18N
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg"))); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 binButtonMouseClicked(evt);
@@ -181,7 +181,7 @@ public class upravitForm extends javax.swing.JFrame {
         });
         getContentPane().add(binButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 60, 70));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\editing.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/editing.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 0, 830, 370));
 
         pack();
@@ -346,7 +346,7 @@ public class upravitForm extends javax.swing.JFrame {
 
         if(!(ListUprava.isSelectionEmpty())){
         
-        binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin2.jpg")));
 
         }
         
@@ -357,7 +357,7 @@ public class upravitForm extends javax.swing.JFrame {
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
-     binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
+     binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg")));
 
     }//GEN-LAST:event_binButtonMouseExited
 

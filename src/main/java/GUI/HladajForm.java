@@ -38,7 +38,7 @@ public class HladajForm extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
         setTitle("Hľadať");
-        this.setSize(530, 275);
+        this.setSize(690, 320);
         obsahTextArea.setVisible(false);
         setLocationRelativeTo(null);
         
@@ -75,23 +75,30 @@ public class HladajForm extends javax.swing.JDialog {
         jScrollPane6 = new javax.swing.JScrollPane();
         obsahTextArea = new javax.swing.JTextArea();
         okButton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         autorLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         autorLabel.setText("Autor");
+        getContentPane().add(autorLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 0, -1, -1));
 
         citatLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         citatLabel.setText("Citát");
+        getContentPane().add(citatLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, -1, -1));
 
         modlitbaLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         modlitbaLabel.setText("Modlitba");
+        getContentPane().add(modlitbaLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, -1, -1));
 
         pribehLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         pribehLabel.setText("Príbeh");
+        getContentPane().add(pribehLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 0, -1, -1));
 
         pravdyVieryLabel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         pravdyVieryLabel.setText("Pravdy viery");
+        getContentPane().add(pravdyVieryLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, -1, -1));
 
         autorList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -105,6 +112,8 @@ public class HladajForm extends javax.swing.JDialog {
         });
         jScrollPane1.setViewportView(autorList);
 
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 110, 170));
+
         citatList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
@@ -116,6 +125,8 @@ public class HladajForm extends javax.swing.JDialog {
             }
         });
         jScrollPane2.setViewportView(citatList);
+
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 110, 170));
 
         modlitbaList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -129,6 +140,8 @@ public class HladajForm extends javax.swing.JDialog {
         });
         jScrollPane3.setViewportView(modlitbaList);
 
+        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 110, 170));
+
         pribehList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
@@ -140,6 +153,8 @@ public class HladajForm extends javax.swing.JDialog {
             }
         });
         jScrollPane4.setViewportView(pribehList);
+
+        getContentPane().add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 110, 170));
 
         pravdyList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -153,9 +168,13 @@ public class HladajForm extends javax.swing.JDialog {
         });
         jScrollPane5.setViewportView(pravdyList);
 
+        getContentPane().add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, 110, 170));
+
         obsahTextArea.setColumns(20);
         obsahTextArea.setRows(5);
         jScrollPane6.setViewportView(obsahTextArea);
+
+        getContentPane().add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 660, 160));
 
         okButton.setText("OK");
         okButton.addActionListener(new java.awt.event.ActionListener() {
@@ -163,66 +182,10 @@ public class HladajForm extends javax.swing.JDialog {
                 okButtonActionPerformed(evt);
             }
         });
+        getContentPane().add(okButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane6)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(autorLabel)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(14, 14, 14)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(citatLabel)
-                                .addGap(69, 69, 69)
-                                .addComponent(modlitbaLabel)))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, Short.MAX_VALUE)
-                                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(pribehLabel)
-                                .addGap(60, 60, 60)
-                                .addComponent(pravdyVieryLabel)))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(okButton)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(autorLabel)
-                    .addComponent(citatLabel)
-                    .addComponent(modlitbaLabel)
-                    .addComponent(pribehLabel)
-                    .addComponent(pravdyVieryLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 159, Short.MAX_VALUE)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(okButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/12696136_10153841305565690_1844778239_n.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -14, 690, 450));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -238,7 +201,7 @@ public class HladajForm extends javax.swing.JDialog {
             JOptionPane.showMessageDialog(this, "Nie je vybraná žiadna položka", "Chyba", JOptionPane.ERROR_MESSAGE);
             return;
           }
-            setSize(530, 400);
+            setSize(690, 450);
             obsahTextArea.setVisible(true);
             obsahTextArea.setText(citat.getZnenie() + "\n" + citat.getAutor());
         }
@@ -251,7 +214,7 @@ public class HladajForm extends javax.swing.JDialog {
             JOptionPane.showMessageDialog(this, "Nie je vybraná žiadna položka", "Chyba", JOptionPane.ERROR_MESSAGE);
             return;
           }
-            setSize(530, 400);
+           setSize(690, 450);
             obsahTextArea.setVisible(true);
             obsahTextArea.setText(modlitba.getText());
         }
@@ -264,7 +227,7 @@ public class HladajForm extends javax.swing.JDialog {
             JOptionPane.showMessageDialog(this, "Nie je vybraná žiadna položka", "Chyba", JOptionPane.ERROR_MESSAGE);
             return;
           }
-            setSize(530, 400);
+            setSize(690, 450);
             obsahTextArea.setVisible(true);
             obsahTextArea.setText(pribeh.getText());
         }     
@@ -277,7 +240,7 @@ public class HladajForm extends javax.swing.JDialog {
             JOptionPane.showMessageDialog(this, "Nie je vybraná žiadna položka", "Chyba", JOptionPane.ERROR_MESSAGE);
             return;
           }
-            setSize(530, 400);
+            setSize(690, 450);
             obsahTextArea.setVisible(true);
             obsahTextArea.setText(pravdy.getObsah());
         }
@@ -291,7 +254,7 @@ public class HladajForm extends javax.swing.JDialog {
             return;
           }
            autori= autorMySql.Hladat(autor);
-            setSize(530, 400);
+            setSize(690, 450);
             obsahTextArea.setVisible(true);
             obsahTextArea.setText(autori.get(0).toString());
         }
@@ -364,6 +327,7 @@ public class HladajForm extends javax.swing.JDialog {
     private javax.swing.JList autorList;
     private javax.swing.JLabel citatLabel;
     private javax.swing.JList citatList;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;

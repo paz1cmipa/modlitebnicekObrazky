@@ -22,7 +22,8 @@ public class MysqlPravdyVieryTest {
     
     public MysqlPravdyVieryTest() {
         
-     
+        pravda.setNazov("aa");
+        pravda.setObsah("aaa");
    
     }
     
@@ -47,8 +48,7 @@ public class MysqlPravdyVieryTest {
     public void testPridat() {
         System.out.println("pridat");
              
-        pravda.setNazov("aa");
-        pravda.setObsah("aaa");
+ 
        
        List<PravdyViery> velkostPred = instance.dajVsetky();
       
@@ -60,33 +60,23 @@ public class MysqlPravdyVieryTest {
         instance.odstranit(pravda);
         
     }
-
     
     @Test
     public void testOdstranit() {
         System.out.println("odstranit");
-      
-       instance.pridat(pravda);
-      
-       List<PravdyViery> velkostPred = instance.dajVsetky();
-        
-        instance.odstranit(pravda);
-        
-        List<PravdyViery> velkostPo = instance.dajVsetky();
-        
-        assertEquals(velkostPred.size()-1, velkostPo.size());
+         instance.pridat(pravda);
+         int velkostPred= instance.dajVsetky().size();
+         instance.odstranit(pravda);
+         int velkostPo=instance.dajVsetky().size();
+         assertEquals(velkostPred-1, velkostPo);
     }
 
-    /*
+    
     @Test
     public void testDajVsetky() {
         System.out.println("dajVsetky");
-        MysqlPravdyViery instance = new MysqlPravdyViery();
-        List<PravdyViery> expResult = null;
         List<PravdyViery> result = instance.dajVsetky();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(2, result.size()); 
     }
 
     /**

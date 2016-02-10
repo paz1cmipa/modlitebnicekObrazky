@@ -49,7 +49,7 @@ public class Kniha extends javax.swing.JFrame {
         initComponents();
      
      mf = parent;
-		pozadie.setIcon(new javax.swing.ImageIcon("Bible1.jpg"));
+		pozadie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/Bible1.jpg")));
 		Image im = Toolkit.getDefaultToolkit().getImage("aa.jpg");
 		this.setIconImage(im);
 
@@ -136,7 +136,7 @@ public class Kniha extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, 680, 330));
 
-        domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\HomeButton\\1a.jpg")); // NOI18N
+        domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/1a.jpg"))); // NOI18N
         domovButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 domovButtonMouseEntered(evt);
@@ -152,7 +152,7 @@ public class Kniha extends javax.swing.JFrame {
         });
         getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, -1));
 
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\n.jpg")); // NOI18N
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/k2.jpg"))); // NOI18N
         PRIDAJbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PRIDAJbuttonActionPerformed(evt);
@@ -160,7 +160,7 @@ public class Kniha extends javax.swing.JFrame {
         });
         getContentPane().add(PRIDAJbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, 70));
 
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\mod.jpg")); // NOI18N
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/mod.jpg"))); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseClicked(evt);
@@ -179,7 +179,7 @@ public class Kniha extends javax.swing.JFrame {
         });
         getContentPane().add(pribehButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, 70));
 
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\s1a.jpg")); // NOI18N
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/s1a.jpg"))); // NOI18N
         nastaveniaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nastaveniaButtonMouseEntered(evt);
@@ -207,7 +207,7 @@ public class Kniha extends javax.swing.JFrame {
         getContentPane().add(choice, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 200, 50));
 
         sipkaButton.setBackground(new java.awt.Color(153, 153, 255));
-        sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\arr.jpg")); // NOI18N
+        sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr.jpg"))); // NOI18N
         sipkaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sipkaButtonActionPerformed(evt);
@@ -239,7 +239,7 @@ public class Kniha extends javax.swing.JFrame {
         });
         getContentPane().add(odstranButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 510, 210, 50));
 
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\fav1.jpg")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/fav1.jpg"))); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -247,7 +247,7 @@ public class Kniha extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 510, 50, 50));
 
-        fvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Folder-Blue-Favorite-icon.jpg")); // NOI18N
+        fvtButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/Folder-Blue-Favorite-icon.jpg"))); // NOI18N
         fvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fvtButtonMouseEntered(evt);
@@ -274,7 +274,7 @@ public class Kniha extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 580, 680, 240));
 
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\bin1.jpg")); // NOI18N
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg"))); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 binButtonMouseEntered(evt);
@@ -292,7 +292,7 @@ public class Kniha extends javax.swing.JFrame {
 
         jLabel4.setBackground(new java.awt.Color(153, 153, 255));
         jLabel4.setForeground(new java.awt.Color(153, 153, 255));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\hv.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/hv.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 1150, 310));
 
         datLable.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -300,7 +300,6 @@ public class Kniha extends javax.swing.JFrame {
         datLable.setText("cas");
         getContentPane().add(datLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 340, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -326,7 +325,6 @@ public class Kniha extends javax.swing.JFrame {
         getContentPane().add(citanie, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 280, 80));
 
         pasik2L.setForeground(new java.awt.Color(255, 255, 255));
-        pasik2L.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\Motivy\\podlozka.jpg")); // NOI18N
         pasik2L.setText("jLabel3");
         pasik2L.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -337,6 +335,8 @@ public class Kniha extends javax.swing.JFrame {
             }
         });
         getContentPane().add(pasik2L, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 90));
+
+        pozadie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/Bible1.jpg"))); // NOI18N
         getContentPane().add(pozadie, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 560));
 
         pack();
@@ -399,11 +399,11 @@ public class Kniha extends javax.swing.JFrame {
     }//GEN-LAST:event_pribehButtonMouseExited
 
     private void domovButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseEntered
-      domovButton.setIcon(new javax.swing.ImageIcon("2a.jpg"));
+      domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/2a.jpg")));
     }//GEN-LAST:event_domovButtonMouseEntered
 
     private void domovButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_domovButtonMouseExited
-    domovButton.setIcon(new javax.swing.ImageIcon("1a.jpg"));
+    domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/1a.jpg")));
     }//GEN-LAST:event_domovButtonMouseExited
 
     private void nastaveniaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseEntered
@@ -412,7 +412,7 @@ public class Kniha extends javax.swing.JFrame {
     }//GEN-LAST:event_nastaveniaButtonMouseEntered
 
     private void nastaveniaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nastaveniaButtonMouseExited
-      nastaveniaButton.setIcon(new javax.swing.ImageIcon("s1a.jpg"));
+      nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/s1a.jpg")));
     }//GEN-LAST:event_nastaveniaButtonMouseExited
 
     private void nastaveniaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nastaveniaButtonActionPerformed
@@ -459,12 +459,12 @@ public class Kniha extends javax.swing.JFrame {
         if(pocitadlo % 2==0){
             zoznamList.setVisible(false);
             this.setSize(887, 600);
-            sipkaButton.setIcon(new javax.swing.ImageIcon("arr.jpg"));
+            sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr.jpg")));
 
         }else{
             this.setSize(1145, 600);
             zoznamList.setVisible(true);
-            sipkaButton.setIcon(new javax.swing.ImageIcon("arr2.jpg"));
+            sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/arr2.jpg")));
         }
     }//GEN-LAST:event_sipkaButtonActionPerformed
 
@@ -524,7 +524,7 @@ public class Kniha extends javax.swing.JFrame {
             ob.pridajPribeh(prib);
         }
 
-        ImageIcon icon = new ImageIcon("favorite-child.jpg");
+        ImageIcon icon =new javax.swing.ImageIcon(getClass().getResource("/Obrazky/favorite-child.jpg"));
         JOptionPane.showMessageDialog(
             null,
             "Položka bola úspešne uložená medzi obľúbené :)",
@@ -597,14 +597,14 @@ public class Kniha extends javax.swing.JFrame {
 
     private void binButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseEntered
         if(!(fvtList.isSelectionEmpty())){
-              binButton.setIcon(new javax.swing.ImageIcon("bin2.jpg"));
+              binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin2.jpg")));
         }
     }//GEN-LAST:event_binButtonMouseEntered
 
     private void binButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_binButtonMouseExited
         
         
-        binButton.setIcon(new javax.swing.ImageIcon("bin1.jpg"));
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/bin1.jpg")));
     }//GEN-LAST:event_binButtonMouseExited
 
     public static void main(String args[]) {

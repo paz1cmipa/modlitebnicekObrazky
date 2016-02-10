@@ -53,6 +53,7 @@ public class PridajteForm extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         modlitbaButton.setBackground(new java.awt.Color(0, 102, 255));
+        modlitbaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/m4w.jpg"))); // NOI18N
         modlitbaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 modlitbaButtonMouseEntered(evt);
@@ -70,6 +71,7 @@ public class PridajteForm extends javax.swing.JFrame {
         modlitbaButton.setBounds(30, 60, 130, 150);
 
         citatButton.setBackground(new java.awt.Color(255, 255, 255));
+        citatButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"))); // NOI18N
         citatButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 citatButtonMouseEntered(evt);
@@ -87,6 +89,7 @@ public class PridajteForm extends javax.swing.JFrame {
         citatButton.setBounds(170, 60, 130, 150);
 
         pribehButton.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"))); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseEntered(evt);
@@ -123,6 +126,7 @@ public class PridajteForm extends javax.swing.JFrame {
 
         zatvorButton.setBackground(new java.awt.Color(255, 255, 255));
         zatvorButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        zatvorButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/12.jpg"))); // NOI18N
         zatvorButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zatvorButtonMouseEntered(evt);
@@ -139,6 +143,15 @@ public class PridajteForm extends javax.swing.JFrame {
         getContentPane().add(zatvorButton);
         zatvorButton.setBounds(560, 300, 80, 70);
 
+        pravdyButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/12736365_10153841305735690_1215885638_n.jpg"))); // NOI18N
+        pravdyButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                pravdyButtonMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                pravdyButtonMouseExited(evt);
+            }
+        });
         pravdyButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pravdyButtonActionPerformed(evt);
@@ -153,6 +166,7 @@ public class PridajteForm extends javax.swing.JFrame {
         getContentPane().add(pravdyLabel);
         pravdyLabel.setBounds(450, 220, 160, 50);
 
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/ir_attachment_70.jpeg"))); // NOI18N
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
@@ -170,32 +184,32 @@ public class PridajteForm extends javax.swing.JFrame {
     }//GEN-LAST:event_zatvorButtonActionPerformed
 
     private void modlitbaButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_modlitbaButtonMouseEntered
-      modlitbaButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
+      modlitbaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c2.jpg")));
       modlitbaLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_modlitbaButtonMouseEntered
 
     private void modlitbaButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_modlitbaButtonMouseExited
-    modlitbaButton.setIcon(new javax.swing.ImageIcon("m4w.jpg")); 
+    modlitbaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/m4w.jpg"))); 
     modlitbaLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_modlitbaButtonMouseExited
 
     private void citatButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_citatButtonMouseEntered
-        citatButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
+        citatButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c2.jpg")));
         citatLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_citatButtonMouseEntered
 
     private void pribehButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseEntered
-       pribehButton.setIcon(new javax.swing.ImageIcon("c2.jpg"));
+       pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c2.jpg")));
        pribehLabel.setForeground(new Color (102,153,255));
     }//GEN-LAST:event_pribehButtonMouseEntered
 
     private void citatButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_citatButtonMouseExited
-        citatButton.setIcon(new javax.swing.ImageIcon("c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"));
+        citatButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg")));
         citatLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_citatButtonMouseExited
 
     private void pribehButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pribehButtonMouseExited
-        pribehButton.setIcon(new javax.swing.ImageIcon("children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"));
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg")));
         pribehLabel.setForeground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_pribehButtonMouseExited
 
@@ -237,6 +251,16 @@ public class PridajteForm extends javax.swing.JFrame {
         PridatPravdyForm pridat = new PridatPravdyForm(this, true);
         pridat.setVisible(true);
     }//GEN-LAST:event_pravdyButtonActionPerformed
+
+    private void pravdyButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pravdyButtonMouseEntered
+           pravdyButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/c2.jpg")));
+       pravdyLabel.setForeground(new Color (102,153,255));
+    }//GEN-LAST:event_pravdyButtonMouseEntered
+
+    private void pravdyButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pravdyButtonMouseExited
+          pravdyLabel.setForeground(new java.awt.Color(255, 255, 255));
+       pravdyButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/12736365_10153841305735690_1215885638_n.jpg")));
+    }//GEN-LAST:event_pravdyButtonMouseExited
 
     /**
      * @param args the command line arguments
